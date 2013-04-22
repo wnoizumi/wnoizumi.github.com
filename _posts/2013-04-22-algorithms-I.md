@@ -2,7 +2,7 @@
 layout: post
 title: "Do I have to learn how to analyse algorithms?"
 description: "Why it is important to know how to analyze algorithms?"
-category: Project and Analysis of Algorithms 
+category: Algorithms 
 tags: [algorithms, complexity, master]
 ---
 {% include JB/setup %}
