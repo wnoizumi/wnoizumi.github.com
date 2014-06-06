@@ -17,7 +17,7 @@ Secondly, I will enumerate some reasons to learn how to analyse algorithms.
 And, to summarize, I will give a classical example of algorithm analysis.
 </p>
 
-## What is an algorithm?
+## What is an algorithm? ##
 
 <p align="justify">
 As you can see in several books and websites, an algorithm is a procedure to do something in a finite number of steps.
@@ -26,7 +26,7 @@ In computer science the tasks performed by software systems are specified by alg
 I won't spend much time in this topic. Its purpose is just to contextualize and refresh your memory. So let's go to the point.
 </p>
 
-## What is algorithm complexity and why analyse it?
+## What is algorithm complexity and why analyse it? ##
 
 <p align="justify">
 It is possible to analyse both correctness and complexity of an algorithm. 
@@ -39,7 +39,9 @@ Such resources can be memory, communication bandwidth or logic gates, but, in ge
 We analyse the running time of an algorithm based on the input size of the problem, ie,
 we measure the number of "steps" executed by the algorithm given an input of size n.
 </p>
-### Is it necessary?
+
+## Is it necessary?
+
 <p align="justify">
 You may be wondering why not just execute the algorithms to see which runs faster.
 The answer is that analysing the complexity before implementing is, in general, faster and easier than 
@@ -53,6 +55,7 @@ Let's do a classical example to see what we take into consideration when analyzi
 ## Example
 
 If you have to sort a list of integer, how would you do that?
+
 <p align="justify">
 Well, a simple solution would be the following: repeatedly step through the list,
 comparing each pair of adjacent numbers swapping those that are in the wrong order.
@@ -66,8 +69,11 @@ For instance, in the following list we have 4 elements:
 Using the "Bubble Sort" algorithm, we would do the following comparisons and swaps:
 
 ### | **4** | 3 | 2 | 1 | -> | 3 | **4** | 2 | 1 | -> | 3 | 2 | **4** | 1 | -> | 3 | 2 | 1 | **4** |
+
 ### | **3** | 2 | 1 | 4 | -> | 2 | **3** | 1 | 4 | -> | 2 | 1 | **3** | 4 | 
+
 ### | **2** | 1 | 3 | 4 | -> | 1 | **2** | 3 | 4 |
+
 ### | **1** | 2 | 3 | 4 |
 
 <p align="justify">
