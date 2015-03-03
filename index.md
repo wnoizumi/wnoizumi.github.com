@@ -6,14 +6,13 @@ tagline:
 
 ## About me
 
-I am developing software systems since 2009. Despite having already developed pet web applications, I only worked in companies with desktop systems. 
-I am enthusiastic about programming and software architecture. 
-In 2012 I received my BSc. degree in Computer Science from The State University of Maringa. In this course I participated in a research project about evaluation of software architectures. I'm currently a MSc. student in the Informatics Department at PUC-Rio. I am also a member of the OPUS research group. My advisor is Alessandro Garcia.
+He is currently a Master Student at Informatics Department of Pontifical Catholic University of Rio de Janeiro (PUC-RIO). He holds a degree in Computer Science from Maringa State University (UEM). He worked in research, development and consultancy projects in the Software Engineering Laboratory at PUC-RIO. He worked as analyst developer at Objective Solutions and Cwork Sistemas, participating in projects from diverse domains and using different working methods.
 
-##Posts
+## Education
 
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+<ul class="education">
+  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – MSc in Computer Science – 2013 to 2015. Advisor: Alessandro Garcia.</li>
+  
+  <li>Maringa State University – UEM – BS in Computer Science – 2008 to 2012. Advisors: Sandra Ferrari and Thelma Colanzi.</li>
+
 </ul>
