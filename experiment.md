@@ -16,15 +16,15 @@ Next we provide all the steps that may be taken before running this experiment.
 To run this experiment we will use an eclipse plugin called Organic. This plugin was tested in the following operational systems: Windows 7 and Ubuntu 14.04 LTS.
 See below a step by step guide to install Organic into your environment:
 </p>
-
 <ol>
-<li>Download and install JDK 1.7 (or higher)</li>
-<li>Download and install Eclipse Luna (or higher)</li>
-<li>Install Organic using the following update site ![Organic](http://wnoizumi.github.io/organic)/</li>
+	<li>Download and install JDK 1.7 (or higher)</li>
+	<li>Download and install Eclipse Luna (or higher)</li>
+	<li>Install Organic using Organic's <a href="http://wnoizumi.github.io/organic">update site</a></li>
 <ol/>
 
+<br/>
 ### Configuring Workspaces
-
+<br/>
 TODO
 
 
