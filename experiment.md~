@@ -17,10 +17,11 @@ To run this experiment we will use an eclipse plugin called Organic. This plugin
 See below a step by step guide to install Organic into your environment:
 </p>
 
-1 - Download and install JDK 1.7 (or higher) <br/>
-2 - Download and install Eclipse Luna (or higher) <br/>
-3 - Install Organic using the following update site http://wnoizumi.github.io/organic/ <br/>
-<br/>
+<ol>
+<li>Download and install JDK 1.7 (or higher)</li>
+<li>Download and install Eclipse Luna (or higher)</li>
+<li>Install Organic using the following update site http://wnoizumi.github.io/organic/</li>
+<ol/>
 
 ### Configuring Workspaces
 
