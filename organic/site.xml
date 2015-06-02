@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/br.pucrio.inf.organic.experiment_1.0.0.1.jar" id="br.pucrio.inf.organic.experiment" version="1.0.0.1"/>
+</site>
