@@ -10,12 +10,13 @@ tagline:
 Next we provide all the steps that may be taken before running this experiment.
 </p>
 
-<br/>
+
 ### Installation
+
 <br/>
 
 <p align="justify">
-To run this experiment we will use an eclipse plugin called Organic. This plugin was tested in the following operational systems: Windows 7 and Ubuntu 14.04 LTS.
+To run this experiment we will use an eclipse plugin called Organic. This plugin was tested in Windows 7 and Ubuntu 14.04 LTS. Nevertheless, this may also works in OSX.
 See below a step by step guide to install Organic into your environment:
 </p>
 
@@ -25,15 +26,17 @@ See below a step by step guide to install Organic into your environment:
 - Install Organic using Organic's <a href="http://wnoizumi.github.io/organic">update site</a> <br/>
 - Install a software to record your screen. This is required because we need you analyze the use of Organic's features. (Suggestions: recordMyDesktop on Linux; webnaria on Windows) <br/>
 
-<br/>
+
 ### Downloading Workspace
+
 <br/>
 
 After installing eclipse and Organic, please dowload the following workspace: 
 <a href="https://github.com/wnoizumi/experiment">OODT Workspace</a>
 
-<br/>
+
 ### Configuring Workspace
+
 <br/>
 
 1) Open eclipse <br/>
