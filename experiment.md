@@ -20,7 +20,7 @@ See below a step by step guide to install Organic into your environment:
 - Download and install JDK 1.7 (or higher) <br/>
 - Download and install Eclipse Luna (or higher) <br/>
 - Install Organic using Organic's <a href="http://wnoizumi.github.io/organic">update site</a> <br/>
-- Install a software to record your screen. This is required because we need to analyze the use of Organic's features. (Suggestions: recordMyDesktop on Linux; webnaria on Windows) <br/>
+- Install the <a href="https://code.google.com/p/rabbit-eclipse/">Rabbit plugin</a> <br/>
 
 
 ### Downloading Workspace

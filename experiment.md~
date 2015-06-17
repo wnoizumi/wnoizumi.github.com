@@ -31,8 +31,6 @@ After installing eclipse and Organic, please dowload the following workspace:
 
 ### Configuring Workspace
 
-<br/>
-
 1) Open eclipse <br/>
 2) Go to File->Switch Workspace <br/>
 3) Select the folder in which you downloaded the OODT Workspace (if you have downloaded a zip file, please extract to a dir) <br/>
