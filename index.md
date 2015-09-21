@@ -4,7 +4,7 @@ title: Willian Oizumi
 tagline:
 ---
 
-## About me
+## About Willian
 
 He is currently Senior Software Developer at HSBC GLT. In 2015, he obtained a master's degree in Informatics from the Pontifical Catholic University of Rio de Janeiro (PUC-RIO). He also holds a bachelor's degree in Informatics from the Maringa State University (UEM). He worked in research, development and consultancy projects in the Software Engineering Laboratory at PUC-RIO. He worked as analyst developer at Objective Solutions and Cwork Sistemas, participating in projects from diverse domains and using different working methods.
 
