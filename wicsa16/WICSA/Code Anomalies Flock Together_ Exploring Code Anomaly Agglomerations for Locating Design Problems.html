@@ -1,0 +1,493 @@
+
+<!-- saved from url=(0051)http://www.inf.puc-rio.br/~woizumi/icse2016/#smells -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+
+		<title>Code Anomalies Flock Together: Exploring Code Anomaly Agglomerations for Locating Design Problems</title>
+		<link rel="stylesheet" type="text/css" href="./Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems_files/design.css">
+		<link rel="stylesheet" href="./Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems_files/default.min.css">
+		<script src="./Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems_files/highlight.min.js"></script>
+		
+		<script>
+			hljs.configure({tabReplace: '  '}); // 4 spaces
+			hljs.initHighlightingOnLoad();
+		</script>
+	</head>
+	<body>
+		<img src="./Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems_files/puc.png" alt="PUC-Rio">
+		<img src="./Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems_files/logoopus.png" alt="Opus Research Group">
+	
+		<h1>Code Anomalies Flock Together: Exploring Code Anomaly Agglomerations for Locating Design Problems</h1>
+		
+		<p><strong>Authors:</strong> Willian Oizumi, Alessandro Garcia, Leonardo da Silva Sousa, Bruno Cafeo, Yixue Zhao</p>
+			<strong>Contact:</strong> woizumi add inf.puc-rio.br
+		
+		<h2>Table of Contents</h2>
+		<div>
+			This web page presents the supplementary material of the paper <i>Code Anomalies Flock Together: Exploring Code Anomaly Agglomerations for Locating Design Problems</i>. Complementary information regarding the paper is divided among the sections following:
+		</div>
+		
+		<ol>
+			<blockquote>
+				<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#questionnaires">Questionnaire</a>: presents the questionnaire submitted to developers and how we used it to create the list of design problems and code elements.</li>
+				<li><a href="./Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems_files/Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems.html">Code Anomalies and Design problems</a>: presents the list of code anomalies and design problems that we used in the study.</li>
+				<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#metamodel">Agglomeration Meta Model</a>: presents the metamodel that we used to represent the code anomaly agglomeration.</li>
+				<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#algorithms">Algorithms for the Detection of Agglomerations</a>: presents both algorithms that neither were presented nor were fully described in the paper.</li>
+				<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#mallet">Retrieving Concerns Automatically with Mallet</a>: presents the steps to recover concerns automatically through Mallet.</li>
+				<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#datacollection">Data Collection Results</a>: presents the links to download the collected data, which was used to perform the data analysis.</li>
+				<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#fullpaper">Full Paper</a>: presents the link to download a file with the full text of this paper.</li>
+			</blockquote>
+		</ol>
+
+		<div id="questionnaires">
+			<h2>1. Questionnaire</h2>
+			<p>
+			In order to create a list of design problems and the code elements realizing the problems in each target system, we performed two steps to incrementally create a "ground truth" related to design problems found in the systems. In the fist step, the developers of the target systems answered a questionnaire based in the projects that they developed. In this questionnaire, the developers provided a list of design problems and how each design problem affects the system. The aim of the questionnaire is to use the knowledge of the developers to create a reliable list of design problems. The questionnaire submitted to the developers is shown below:
+			</p>
+			<div class="questions">
+			<ol>
+				<li>What is the name of the system that you developed?</li>
+				<li>Regarding the system that you have worked, what are the components that are part of the system? Consider a component as a Java package or a group of classes that can be grouped together according to a criterion defined in the software development. For example, a component can be only few classes in a java package or can be formed by classes from different packages.</li>
+				<li>According with your knowledge of the system, what are the concerns implemented in the systems?  We define a <i>concern</i> as a property or functionality of interest to the designers of a system, but its realization is not necessarily modularized in a single component. For instance persistence, error handling and security are examples of concerns implemented in some systems.</li>
+				<li>For each concern identified previously, which are the code elements (class, method, interface...) that implement the concern?</li>
+				<li>According with the literature, <i>design problems</i> are structures that indicate violation of intended design rules or fundamental design principles, and which have a negative impact on the design quality. Examples of design problems are <i>Fat Interface</i> and <i>Unwanted Dependencies</i>. In accordance with the previous definition of design problems, provide the following information for each design problem that you believe to exist in the system:</li>
+				<ul>
+					<li>Description of the problem</li>
+					<li>Code elements that are realizing the problem</li>
+					<li>In you opinion, how does the design problem affect the maintenance of the system?</li>
+				</ul>
+			</ol>
+			</div>
+
+			<p>
+			In the second step, we performed a process to validate the initial list of design problems for correctness and completeness. We used the source code and the system design to create a new list of design problems. This list include the design problems identified by developers in the questionnaire and the design problems found after to apply some detection strategies. These detection strategies were discussed in <a target="_blank" href="http://www.maxwell.vrac.puc-rio.br/Busca_etds.php?strSecao=resultado&amp;nrSeq=23946@2">Macia's Phd Thesis</a>. After to run the detection strategies, we found a list of candidate design problems. We used this new list to confirm or expand the list of design problems provided by developers. In order to perform that, we showed developers the list of candidate design problems and we asked them to provide a brief explanation about the (ir)relevance of the candidate design problem. Through this process, we created the final list of design problems. When we suspected that there were still inaccuracies in the final list of design problems, we asked for developers provide further details.
+			</p>
+
+		</div>
+
+		<div id="smells">
+			<h2>2. Code Anomalies and Design Problems</h2>
+
+			<p>
+			Code anomaly <a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#fowler">[1]</a>, popularly known as a "code smell", is a micro structure in the program that represents a surface indication of a design problem. In this study, we have focus on 7 types of code anomalies. We present the definition of the code anomalies following:
+
+			</p><div class="questions">
+			<blockquote>
+				<li><strong>Data Class:</strong> A class has this anomaly when it has only fields, getting and setting methods for the fields, and nothing else. The aim is to hold data and, consequently, be manipulated by other classes.</li>
+
+				<li><strong>Divergent Change:</strong> This anomaly occurs when one class is commonly changed in different ways for different reasons.</li>
+
+				<li><strong>God Class:</strong> This code anomaly occurs when the class centralizes more the one functionality, realizing more than one purpose.</li>
+
+				<li><strong>Shotgun Surgery:</strong> This code anomaly is the opposite of Divergent Change. It happens when every time a kind of change is made in the code, that change triggers many little changes in many different classes.</li>
+
+				<li><strong>Feature Envy:</strong> Feature envy occurs in a class when the method of that class seems more interested in a class other than the one it actually belongs.</li>
+
+				<li><strong>Long Method:</strong> This anomaly occurs when a method has grown too large, containing too many lines of code.</li>
+
+				<li><strong>Long Parameter List:</strong> This anomaly occurs in a method that has a long list of parameters, in which makes readability and code quality worse.</li>
+
+			</blockquote>
+			</div>
+
+			Design problems <a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#design">[2]</a> are structures that indicate violation of intended design rules or fundamental design principles, and negatively impact design quality. In this study we focused on 8 design problems, described following.
+
+			<p>
+			</p><div class="questions">
+			<blockquote>
+				<li><strong>Fat Interface:</strong> Interface of a design component that offers only a general, ambiguous entry-point that provides non-cohesive services, thereby complicating the clients' logic.</li>
+
+				<li><strong>Unwanted Dependency:</strong> Dependency that violates an intended design rule.</li>
+
+				<li><strong>Component Overload:</strong> Design components that fulfill too many responsibilities.</li>
+
+				<li><strong>Cyclic Dependency:</strong> Two or more design components that directly or indirectly depend on each other.</li>
+
+				<li><strong>Delegating Abstraction:</strong> An abstraction that exists only for passing messages from one abstraction to another.</li>
+
+				<li><strong>Scattered Concern:</strong> Multiple components that are responsible for realizing a crosscutting concern.</li>
+
+				<li><strong>Overused Interface:</strong> Interface that is overloaded with many clients accessing it. That is, an interface with "too many clients".</li>
+
+				<li><strong>Unused Abstraction:</strong> Design abstraction that is either unreachable or  never used in the system.</li>
+
+			</blockquote>
+
+		</div>
+		
+		<div id="metamodel">
+			<h2>3. Agglomeration Meta Model</h2>			
+			<p>
+			The metamodel that characterizes the concept of code-anomaly agglomerations is shown in Figure 1. We use this metamodel to show the relation between agglomerations and the other relevant concepts that we have introduced in the paper. 
+
+			</p>
+			
+			<figure>
+				<img src="./Code Anomalies Flock Together_ Exploring Code Anomaly Agglomerations for Locating Design Problems_files/metamodel.png" alt="Agglomeration Metamodel Image">
+				<figcaption><strong>Figure 1. Agglomeration Metamodel</strong></figcaption>
+			</figure>
+
+			<br>
+
+			In our study, we define an <dfn>Agglomeration</dfn> based on the <dfn>Relationship Type</dfn> among the code anomalies that are part of it. In other words, the relationship type defines how the code anomalies are grouped to create an agglomeration. In our meta-model, we have two relationship types: (1) <dfn>Syntactic</dfn> and (2) <dfn>Semantic</dfn>.  Therefore, agglomerations can be created either in accordance with the semantic relationship among the anomalous code elements (for example, a method call) or in accordance with the semantic relationship among the anomalous code elements (for example, elements implementing the same concern). 
+
+			<br><br>
+
+			The syntactic relationship type is divided in two subtypes: <dfn>Intra-component</dfn> e <dfn>Inter-component</dfn>. Consequently, an agglomeration can be formed in three different “ways”.  There is an<dfn> Algorithm</dfn> for each way to create an agglomeration (Vide <a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#algorithms">Algorithms for the Detection of Agglomerations</a>). However, in general, the algorithms will inspect <dfn>Code Elements</dfn> that are infected with <dfn>Code Anomalies</dfn>. Code elements that are infected with code anomalies are called anomalous code elements. Moreover, a code element may reify multiple <dfn>Design Problems</dfn>. Conversely, a design problem is realized by one or multiple code elements. Finally, a code element addresses one or multiple <dfn>Concerns</dfn>, while a concern is addressed by one or multiple code elements.
+
+			<br><br>
+
+			In addition, a code element is encompassed by a <dfn>Component</dfn>, which is an instance of a <dfn>Component Type</dfn>. A component can be a Java package or a group of classes that the developers have considered as a component. Component is a specialization of an <dfn>Element Type</dfn>, and it turn, a <dfn>Code Element Type</dfn> (class/interface or method) is a specialization of an element type as well.
+
+			<br>
+
+		</div>
+
+		<div id="algorithms">
+			<h2>4. Algorithms for the Detection of Agglomerations</h2>
+
+			<p>
+			The algorithm to detect the agglomerations depends of the type of relationship that creates an agglomeration: either syntactic or semantic. For syntactic agglomerations, the algorithm searches for explicit relationship established between two anomalous elements. The relationship exist between two anomalous elements if they have at least one of the following dependencies:
+
+			</p><ul>
+				<li>shared attribute</li>
+				<li>method call</li>
+				<li>class extension</li>
+				<li>method overload</li>
+			</ul>
+
+			We classify the syntactic agglomerations according to their scope in the program: (i) intra-component agglomerations, i.e. those entirely located within a single component, and (ii) inter-component agglomerations, i.e. those located in two or more agglomeration. The intra-component algorithm searches for code elements in the same component that are syntactically related. The different between the inter-component and intra-component algorithm (described in the paper) relies on the scope that limits the search for anomalous code elements. The inter-component algorithm searches for related code elements that involve two or more design components, while the intra-component algorithm searches for code elements inside of one only component. The algorithm to identify intra-component agglomerations is shown below.
+			<p></p>
+
+			<div class="algorithm">
+			<p>
+			Algorithm 1. Intra-component Agglomeration Algorithm
+			</p>
+			<pre><code>
+1. public List{} getIntraAgglomeration(Set dc, int agglomThreshold){
+2.	IntraAgglomerations = {}
+3.	anomalousElems = {}
+4.	 
+5.	for(each design component dc in the program){
+6.		anomalousElems.addAll(getAnomalousElemsOfComponent(dc))
+7.	}
+8.
+9.	//Adding anomalous code elements as vertices in the graph
+10.	graphIntraElems = new graphIntraElems().addVertex.addAll(anomalousElems) 
+11.
+12.	for(each e1 in anomalousElems){
+13.		for(each e2 in anomalousElems){	
+14.			//Creating the Intra-component graph 
+15.			if(isRelated(e1,e2) &amp;&amp; (e1.getDesignComponent() == e2.getDesignComponent())){
+16.				graphIntraElems.addEdge(e1,e2)
+17.			}
+18.		}
+19.	}
+20. 
+21.	// Adding the connected components as agglomerations		  
+22.	IntraAgg = new IntraAgg().addAll(getConnectedComponents(graphIntraElems))
+23.
+24.	// Selecting only agglomerations above the predefined threshold
+25.	for(each a in IntraAgg){
+26.		if(size(a.getAnomalies()) &gt; agglomThreshold){
+27.			IntraAgglomerations.add(a)
+28.		}
+29.	}
+30.	return IntraAgglomerations
+31. }
+			</code></pre>
+			</div>
+		</div>
+
+		<div>
+		The algorithm has two parameters: (i) <i>dc</i>: a set of design components, and (ii) <i>agglomThreshold</i>: a threshold value for the minimum agglomeration size. First, the algorithm identifies all anomalous elements of a design component by using the function <i>getAnomalousElemsOfComponent()</i> (line 6). The anomalous elements of the program are recorded in the attribute <i>anomalousElems</i>. The algorithm generates a graph (<i>graphIntraElems</i>) with the syntactic relationships (edges) between the anomalous elements (vertices) located in <b>the same</b> design components (line 10 and lines 12 - 19). To find the relationships between elements, the algorithm uses the function <i>isRelated()</i> (line 15). In order to detect the agglomerations, the algorithm finds the subgraphs within the graph in which any two vertices are connected (i.e. the subgraph formed by the relationships among the anomalous elements). Finally, only the agglomerations with the size greater than <i>agglomThreshold</i> are included in the resulting set of inter- component agglomerations, i.e. <i>intraAgglomerations</i> (lines 25 - 30). 
+		</div>
+
+		<br>
+
+		<div>
+		Instead to search for anomalous elements that are syntactically related, the algorithm to identify semantic agglomeration searches for anomalous elements that implement the same concerns, i.e., elements that have a semantic relationship. Semantic relationships between two or more code anomalies occur when their host code elements are intended to (partially) realize a single designs purpose or concern as persistence, error handling, or security.  Algorithm 2 presents the fully algorithm to identify semantic agglomerations.
+		</div>
+
+
+			<div class="algorithm">
+			<p>
+			Algorithm 2. Semantic Agglomeration Algorithm
+			</p>
+			<pre><code>
+1.  public List[] getConcernAgglomeration(Set dc, Set con, int agglomThreshold, int weakThreshold){
+2.    concernAgglomerations = []
+3.    
+4.    //Searching for overload of concerns
+5.    for(each design component dc in the program){
+6.      ae = getAnomalousElementsOfComponet(dc)
+7.      agglomeration = []
+8.
+9.      for(each elem in ae){
+10.        if(size(elem.getConcerns()) &gt; concernThreshold){
+11.          agglomeration.add(elem)
+12.       }
+13.     }
+14.   
+15.     if(size(agglomeration.getAnomalies()) &gt; agglomerationThreshold){
+16.       concernAgglomerations.add(agglomeration)
+17.     }
+18.   }
+19.   
+20.   //Searching for scattered concerns
+21.   for(each design concern con in the program){
+22.     W = weakDedicatedComponents(con, weakThreshold)
+23.     agglomeration = []
+24.
+25.     if(size(W) &gt; 0){
+26.       ae = getAnomalousElemsPerConcern(W, con)
+27.       agglomeration.addAll(ae)
+28.     }
+29.
+30.     if(size(agglomeration) &gt; agglomThreshold){
+31.       semanticAgglomerations.add(agglomeration)
+32.     }
+33.   }
+34.   
+35.   return semanticAgglomerations
+36. }
+			</code></pre>
+			</div>
+		</div>
+
+		<div>
+		The semantic agglomeration has the most complex algorithm. The algorithm uses four inputs: (i) a set of design components <i>dc</i>, (ii) the mappings for each concern <i>con</i>, (iii) a threshold for the minimum agglomerations size <i>agglomThreshold</i>, and (iv) a threshold for identifying weakly-dedicated components, named <i>weakThreshold</i>. In this context, a component <i>Cp</i> is weakly-dedicated to a concern <i>Cn</i> if <i>Cn</i> is not the main concern of <i>Cp</i>. That is, although <i>Cp</i> implements <i>Cn</i>, the predominant concern of <i>Cp</i> is not <i>Cn</i>.
+		<br><br>
+
+		As exposed by Algorithm 2, the algorithm searches for two types of agglomerations. The first type is related to anomalous components overloaded with the assignment of multiple concerns (lines 4 to 18). In order to identify this type of agglomeration, the algorithm inspects all components in the system (lines 5 to 18), searching for anomalous elements that have a number of concerns greater than the <i>concernThreshold</i> (lines 9 to 13). For each component, all the anomalous elements that satisfy the aforementioned condition are included in a list of candidate agglomerations (line 11). After inspecting the component, if the candidate agglomeration has a number of anomalies higher than the <i>agglomThreshold</i> (line 15), then this agglomeration is included in the final results (line 16), i.e. in the list of actual agglomerations. That is, the candidate agglomeration becomes an actual semantic agglomeration.
+		<br><br>
+
+		The second type of concern-based agglomeration is related to concerns scattered amoung code anomalous elements (lines 20 to 33). In this case, the algorithm verifies if a concern: (i) is modularized in one or more components, and (ii) is partially scattered in the implementation of other components (line 22). The combination of these two conditions indicates that a concern cross-cuts the implementation of other concerns. The anomalous code elements contributing to a cross-cutting concern are grouped into an candidate agglomeration (lines 25 to 28). If the candidate agglomeration has a number of anomalies higher than the <i>agglomThreshold</i> (line 30), then this agglomeration is included in the results and confirmed as an actual agglomeration (line 31). 
+		<br><br>
+
+		</div>
+
+
+		
+		<div id="mallet">
+			<h2>5. Retrieving concerns automatically</h2>
+			
+			The initial lists of concerns and their mappings in the source code were provided with the assistance of systems' developers. For each concern in their initial lists, they provided a list of methods or classes realizing those concerns (<i>Vide</i> <a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#questionnaires">Questionnaires</a>). Given the large size of certain systems, developers could eventually not produce complete concern mappings. Therefore, we also relied on the use of an available tool for automatic concern location, named <a target="_blank" href="http://mallet.cs.umass.edu/index.php">Mallet</a>. Mallet explores topic modeling in order to identify a list of concerns and, for each concern, the list of code elements realizing it in a program.
+
+			<br><br>
+
+			The computation of semantic agglomerations relies on mapping of systems concerns to identify design problems. Therefore, it is important to check whether semantic agglomerations can also improve the location of design problems when input concern mappings are automatically generated. In order to check this matter, we select three systems (<i>Health Watcher</i>, <i>Mobile Media</i> and <i>S1</i>) to automatically generate concerns using Mallet tool. We used this automatic list of concerns as an input to the algorithm that detects semantic agglomerations (Vide <a href="http://www.inf.puc-rio.br/~woizumi/icse2016/#algorithms">Algorithms for the Detection of Agglomerations</a>). Consequently, we created two lists of semantic agglomerations: one list created with the concerns provided by developers manually and a second list provided by Mallet. After that, we compared both lists of semantic agglomerations. Following we show the process to extract the concerns using Mallet tool.
+
+			
+			<h3>Mallet Configuration</h3>
+
+			After to download Mallet and to install it in the computer, the fist step was to import the source code of the system that we want to retrieve the concerns. The commands below import the directory with the source code. 
+
+			<br>
+
+
+			<div class="command">
+			./bin/mallet import-dir --input /users/username/database/ --output auxFile.mallet --keep-sequence --remove-stopwords
+			</div>
+
+			<br>
+
+			This command turns the source code into a MALLET file (called <i>auxFile.mallet</i>), keeping the order of the original texts and removing stop words like <i>and</i> and <i>but </i>.  After to create the auxiliary file, the next command creates the <i>topic model</i> file.
+
+			<br>
+
+			<div class="command">
+			bin\mallet train-topics  --input auxFile.mallet  --num-topics 20 --optimize-interval 20 --output-state topic-state.gz  --output-topic-keys topic_keys.txt --output-doc-topics topic_composition.txt
+			</div>
+
+			<br>
+
+			For our experiment, the topic model generated from a source code is considered as the concerns. So, we combined the both output files (<i>topic_keys.txt </i> and <i>topic_composition.txt</i>) to create the list of concerns and the list of classes that implement each concerns. The <i>topic_keys.txt </i> file has the list of concerns and the <i>topic_composition.txt</i> has the list of the classes which implements each concern.
+
+			<br>
+
+			For more details how to run Mallet, you can read the tutorial wrote by Shawn Graham, Scott Weingart, and Ian Milligan in <a target="_blank" href="http://programminghistorian.org/lessons/topic-modeling-and-mallet.html">Getting Started with Topic Modeling and MALLET </a>
+
+
+			<h3>Results</h3>
+			<div>
+				After defining the Mallet configuration, the next step was to run the commands described previously in the three selected systems (<i>Health Watcher</i>, <i>Mobile Media</i> and <i>S1</i>). Table 1 shows the amount of concerns generated to each system. The table also provides the amount of concerns retrieved manually by the developers.
+			</div>
+			<br>
+
+			<table class="tg">
+				<caption>Table 1. Comparison between the amount of concerns retrieved manually with the amount of concerns retrieved with Mallet</caption>
+				  <tbody><tr>
+				    <th class="tg-bghc">System</th>
+				    <th class="tg-bghc">Manual concerns</th>
+				    <th class="tg-bghc">Mallet concerns</th>
+				  </tr>
+				  <tr>
+				    <td class="tg-bghc">MM</td>
+				    <th class="tg-s6z2">4</th>
+				    <th class="tg-s6z2">5</th>
+				  </tr>
+				  <tr>
+				    <td class="tg-bghc">HW</td>
+				    <th class="tg-s6z2">3</th>
+				    <th class="tg-s6z2">8</th>
+				  </tr>
+				  <tr>
+				    <td class="tg-bghc">S1</td>
+				    <th class="tg-s6z2">6</th>
+				    <th class="tg-s6z2">39</th>
+				  </tr>
+				</tbody></table>
+
+
+			<br>
+			<div>
+			Comparing the amount of concerns in both columns, we notice that Mallet generate more concerns than the developers do. Given the large size of certain systems, we expect the developers eventually not produce complete concern mappings. However, this is not an issue for automatic concern location tools like Mallet.
+
+			<p>
+			We used the concerns retrieved by Mallet tool as input for the algorithm that detects semantic agglomerations. After that, we compared the both sets of semantic agglomerations: fist set created with the concern mapping produced by developers, and the second one created with the concern mapping generated with Mallet. Table 2 shows the result of agglomerations found with each list of concerns
+			</p></div>
+			<br>
+
+			<table class="tg">
+			 <caption>Table 2. Comparison between semantic agglomerations: manual concerns vs automatic concerns</caption>
+			  <tbody><tr>
+			    <th class="tg-bghc" rowspan="2">System</th>
+			    <th class="tg-bghc" colspan="4">Manual concerns</th>
+			    <th class="tg-bghc" colspan="4">Mallet concerns</th>
+			  </tr>
+			  <tr>
+			    <td class="tg-hgcj">Agglomerations</td>
+			    <td class="tg-hgcj">Related</td>
+			    <td class="tg-hgcj">Not Related</td>
+			    <td class="tg-hgcj">Design Problems</td>
+			    <td class="tg-hgcj">Agglomerations</td>
+			    <td class="tg-hgcj">Related</td>
+			    <td class="tg-hgcj">Not Related</td>
+			    <td class="tg-hgcj">Design Problems</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci">Mobile Media</td>
+			    <td class="tg-s6z2">1</td>
+			    <td class="tg-s6z2">1</td>
+			    <td class="tg-s6z2">0</td>
+			    <td class="tg-s6z2">5</td>
+			    <td class="tg-s6z2">4</td>
+			    <td class="tg-s6z2">3</td>
+			    <td class="tg-s6z2">1</td>
+			    <td class="tg-s6z2">42</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci">Health Watcher</td>
+			    <td class="tg-s6z2">4</td>
+			    <td class="tg-s6z2">3</td>
+			    <td class="tg-s6z2">1</td>
+			    <td class="tg-s6z2">187</td>
+			    <td class="tg-s6z2">6</td>
+			    <td class="tg-s6z2">5</td>
+			    <td class="tg-s6z2">1</td>
+			    <td class="tg-s6z2">104</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci">S1</td>
+			    <td class="tg-s6z2">5</td>
+			    <td class="tg-s6z2">4</td>
+			    <td class="tg-s6z2">1</td>
+			    <td class="tg-s6z2">34</td>
+			    <td class="tg-s6z2">34</td>
+			    <td class="tg-s6z2">33</td>
+			    <td class="tg-s6z2">1</td>
+			    <td class="tg-s6z2">256</td>
+			  </tr>
+			</tbody></table>
+
+			<br>
+			When compared to the developers mapping, we notice Mallet generates much longer lists of concerns and concern mappings. Consequently, as we can see in Table 1, the use of Mallet results in a higher number of semantic agglomerations, which was, in turn, related to more design problems than the agglomerations found with the manual list of concerns provided by developers. 
+
+			<br><br>
+			We compared the semantic agglomerations using Mallet concerns with the syntactic agglomerations. We did this comparison in order to check if semantic agglomerations using Mallet concerns have better results than semantic agglomerations using manual concerns. The result is shown in Table 2.
+
+			<br><br>
+			<table class="tg">
+				<caption>Table 3. Comparison between agglomerations: syntactic vs semantic (Mallet concerns)</caption>
+			  <tbody><tr>
+			    <th class="tg-bghc">System</th>
+			    <th class="tg-bghc">DP (Mallet)</th>
+			    <th class="tg-bghc">DP (Syntatic)</th>
+			    <th class="tg-bghc">DP(Mallet) - DP(Syntactic)</th>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci">Mobile Media</td>
+			    <td class="tg-s6z2">42</td>
+			    <td class="tg-s6z2">21</td>
+			    <td class="tg-s6z2">21</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci">Health Watcher</td>
+			    <td class="tg-s6z2">104</td>
+			    <td class="tg-s6z2">163</td>
+			    <td class="tg-s6z2">-59</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci">S1</td>
+			    <td class="tg-s6z2">256</td>
+			    <td class="tg-s6z2">104</td>
+			    <td class="tg-s6z2">152</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci">Sum=</td>
+			    <td class="tg-s6z2">402</td>
+			    <td class="tg-s6z2">288</td>
+			    <td class="tg-s6z2">114</td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci"></td>
+			    <td class="tg-031e"></td>
+			    <td class="tg-031e"></td>
+			    <td class="tg-031e"></td>
+			  </tr>
+			  <tr>
+			    <td class="tg-oxci"></td>
+			    <td class="tg-031e"></td>
+			    <td class="tg-hgcj">Percentage</td>
+			    <td class="tg-hgcj">39.58333333</td>
+			  </tr>
+			</tbody></table>
+
+			<br><br>
+			Table 2 compares (i) the amount of design problems (DP) found by semantic agglomerations found with the Mallets concerns with (ii) the amount of design problems found with syntactic agglomerations. As we can see, semantic agglomerations generated with Mallets lead to an average increase of 39,58 % in the identification of design problems when compared with the semantic agglomeration generated with developers mappings (manual concern).  To calculate the percentage, we added the amount of design problems found with syntactic agglomerations and we added the amount of design problems found only with semantic agglomerations ( DP(Mallet) - DP (Syntactic)). Based in both sums, we calculated the percentage.
+
+		</div>
+
+		<div id="datacollection">
+			<h2>6. Data Collection Results</h2>
+			Next, we provide the data generated by our data collection proccess for the 7 target systems. In order to not violate copyrights, data from proprietary systems was masked before being published.
+			<ul>
+				<blockquote>
+					<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/data/concerns.zip">Concerns</a></li>
+					<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/data/mallet.zip">Mallet Concerns</a></li>
+					<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/data/design.zip">Design Problems</a></li>
+					<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/data/anomalies.zip">Code Anomalies</a></li>
+					<li><a href="http://www.inf.puc-rio.br/~woizumi/icse2016/data/agglomerations.zip">Agglomerations</a></li>
+				</blockquote>
+			</ul>			
+		</div>
+
+		<div id="fullpaper">
+			<h2>7. Full Paper</h2>
+			The full paper submitted to the ICSE can be downloaded <a href="http://www.inf.puc-rio.br/~woizumi/icse2016/data/codeAnomaliesFlockTogether.pdf">here</a>.
+		</div>
+
+		<div id="bib">
+		<h2>References</h2>
+		The definitions of code anomalies and design problems are based on the following works:
+		<p>
+		</p><ol>
+		
+			<li id="fowler">M. Fowler. <i>Refactoring: Improving the Design of Existing Code.</i> Addison-Wesley, Boston, MA, USA, 1999.</li>
+			<li id="design">G. Suryanarayana, G. Samarthyam, and T. Sharma. <i>Refactoring for Software Design Smells: Managing Technical Debt.</i> Morgan Kaufmann, 2014.</li>
+		
+		</ol></div>
+
+	
+
+</body></html>
