@@ -12,7 +12,9 @@ tagline:
 
 ## Exercícios
 
-Em breve
+<ul class="slides">
+  <li><a href="/ifpr/info/exercicios/lista1.pdf">Lista 1</a> - 26/02/2016</li>
+</ul>
 
 ## Trabalhos
 
