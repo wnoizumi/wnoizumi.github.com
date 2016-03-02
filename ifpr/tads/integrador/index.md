@@ -14,7 +14,9 @@ Em breve
 
 ## Trabalhos
 
-Em breve
+<ul class="trabalhos">
+  <li><a href="/ifpr/tads/integrador/METEP-Projeto_Integrador-TRABALHO_1.pdf">Trabalho 1 - Divulgado em 02/03/2016</a></li>
+</ul>
 
 ## Provas
 

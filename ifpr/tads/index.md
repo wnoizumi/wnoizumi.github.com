@@ -10,7 +10,7 @@ Segundo Ano:
 
 <ul class="segundo">
   <li><a href="/ifpr/tads/es1">Engenharia de Software I</a></li>
-  <li><a href="/ifpr/tads/es1">Projeto Integrador</a></li>
+  <li><a href="/ifpr/tads/integrador">Projeto Integrador</a></li>
 </ul>
 
 Terceiro Ano:
