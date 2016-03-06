@@ -4,22 +4,8 @@ title: TADS - Engenharia de Software II
 tagline: 
 ---
 
-## Slides
+## Material
 
-Em breve
+Todos os materiais estão disponíveis na seguinte pasta do google drive:
 
-## Exercícios
-
-Em breve
-
-## Trabalhos
-
-Em breve
-
-## Provas
-
-Em breve
-
-## Material Suplementar
-
-Em breve
+<a href="https://drive.google.com/folderview?id=0B_jYjhszA34iTWNpcURJMUxVRVk&usp=sharing">- Materiais de Engenharia de Software II</a>

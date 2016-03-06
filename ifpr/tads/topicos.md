@@ -4,22 +4,8 @@ title: TADS - Tópicos Especiais em Tecnologia da Informação
 tagline: 
 ---
 
-## Slides
+## Material
 
-Em breve
+Todos os materiais estão disponíveis na seguinte pasta do google drive:
 
-## Exercícios
-
-Em breve
-
-## Trabalhos
-
-Em breve
-
-## Provas
-
-Em breve
-
-## Material Suplementar
-
-Em breve
+<a href="https://drive.google.com/folderview?id=0B_jYjhszA34icU13VVlDUWk5M1k&usp=sharing">- Materiais de Tópicos Especiais em Tecnologia da Informação</a>

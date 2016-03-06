@@ -8,6 +8,8 @@ tagline:
 
 <ul class="slides">
   <li><a href="/ifpr/info/slides/AlgoII_Aula_01.pdf">Aula 01</a> - 19/02/2016</li>
+  <li><a href="/ifpr/info/slides/AlgoII_Aula_02.pdf">Aula 02</a> - 26/02/2016</li>
+  <li><a href="/ifpr/info/slides/AlgoII_Aula_03.pdf">Aula 03</a> - 26/02/2016</li>
 </ul>
 
 ## Exercícios
