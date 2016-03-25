@@ -1,0 +1,34 @@
+---
+layout: page
+title: Organic: tool support for the synthesis of code anomalies
+tagline:
+---
+
+## Organic: tooling support for the synthesis of code anomalies
+
+Organic was designed to help programmers in identifying design problems in the source code of Java systems, where design documentation is scare, incomplete or obsolete. Moreover, this tool can also be used by researchers to study the relationships of code-anomaly agglomerations (<a href="#references">Oizumi et al. 2015</a>) and software design degradation. The tool is implemented as a plug-in for the Eclipse platform. In this tool, a number of features collaborate with each other to satisfy the requirements (see Chapter 3 of <a href="#references">Oizumi 2015</a>) for a synthesis technique. Next, we present an overview of the features provided by the tool.
+
+###Agglomerations View
+
+The Agglomerations View provides the features of the synthesis technique required to support the identification of design problems. Figure 1 shows a snapshot of the Agglomerations View. As it can be observed, this view is separated in two parts: the first part is called Agglomerations and it is shown on the left side; the second part is called Details and it is shown on the right side. The Agglomerations part shows the agglomerations found in one or more projects according to their category. In Figure 1, for instance, this view is showing all the agglomerations found in the \textit{Health Watcher} project. When clicking on one of the agglomeration categories, all the detected agglomerations of that category are displayed. Each agglomeration is displayed with a meaningful identifier. For example, there are three intra-method agglomerations in Figure~\ref{fig:chap3:agglomerationsview-tree}. The identifier of each intra-method agglomeration is the name of the affected method.
+
+	<figure>
+	<img src="figures/AgglomerationsView.png" alt="Agglomerations View" heigth="255px" width="507px" />
+	<figcaption>Agglomerations View</figcaption>
+	</figure>
+	
+<div id="references">
+
+Oizumi, W. (2015). Synthesis of code anomalies: Revealing design problems in the source code. MSc dissertation. In Pontifical Catholic University, Informatics Department. Available at <a href="http://www.maxwell.vrac.puc-rio.br/25718/25718.PDF">Maxwell System</a>.
+
+Oizumi, W., Garcia, A., Colanzi, T., Staa, A., and Ferreira, M. (2015). On the relationship of code-anomaly agglomerations and architectural problems. JSERD, Springer. Available at <a href="http://jserd.springeropen.com/articles/10.1186/s40411-015-0025-y">Springer Open</a>.
+
+</div>
+
+
+
+
+
+
+
+
