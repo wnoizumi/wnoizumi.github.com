@@ -6,16 +6,7 @@ tagline:
 
 ## Organic: tooling support for the synthesis of code anomalies
 
-Organic was designed to help programmers in identifying design problems in the source code of Java systems, where design documentation is scare, incomplete or obsolete. Moreover, this tool can also be used by researchers to study the relationships of code-anomaly agglomerations (Oizumi et al. 2015) and software design degradation. The tool is implemented as a plug-in for the Eclipse platform. In this tool, a number of features collaborate with each other to satisfy the requirements (Chapter 3 of Oizumi 2015) for a synthesis technique. Next, we present an overview of the features provided by the tool.
-
-### Agglomerations View
- 
-The Agglomerations View provides the features of the synthesis technique required to support the identification of design problems. Figure 1 shows a snapshot of the Agglomerations View. As it can be observed, this view is separated in two parts: the first part is called Agglomerations and it is shown on the left side; the second part is called Details and it is shown on the right side. The Agglomerations part shows the agglomerations found in one or more projects according to their category. In Figure 1, for instance, this view is showing all the agglomerations found in the \textit{Health Watcher} project. When clicking on one of the agglomeration categories, all the detected agglomerations of that category are displayed. Each agglomeration is displayed with a meaningful identifier. For example, there are three intra-method agglomerations in Figure~\ref{fig:chap3:agglomerationsview-tree}. The identifier of each intra-method agglomeration is the name of the affected method.
-
-	<figure>
-	<img src="figures/AgglomerationsView.png" alt="Agglomerations View" heigth="255px" width="507px" />
-	<figcaption>Agglomerations View</figcaption>
-	</figure>
+Organic was designed to help programmers in identifying design problems in the source code of Java systems, where design documentation is scare, incomplete or obsolete. Moreover, this tool can also be used by researchers to study the relationships of code-anomaly agglomerations (Oizumi et al. 2015) and software design degradation. The tool is implemented as a plug-in for the Eclipse platform. In this tool, a number of features collaborate with each other to satisfy the requirements (Chapter 3 of Oizumi 2015) for a synthesis technique. 
 
 ### Download
 
@@ -24,8 +15,9 @@ A prototype of organic is available for download and installation. The steps to 
 - Download and install JDK 1.7 (or higher) <br/>
 - Download and install Eclipse Luna (or higher) <br/>
 - Open Eclipse <br/>
-- Go to Help->
-- Install Organic using Organic's <a href="http://wnoizumi.github.io/organic/plugin">update site</a> <br/>
+- Go to Help->Install New Software <br/>
+- Add Organic's <a href="http://wnoizumi.github.io/organic/plugin">update site</a> <br/>
+- Install Organic <br/>
 
 
 ### References

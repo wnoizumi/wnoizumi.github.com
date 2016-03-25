@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Organic: tool support for the synthesis of code anomalies
+title: Organic - tool support for the synthesis of code anomalies
 tagline:
 ---
 
@@ -15,8 +15,9 @@ A prototype of organic is available for download and installation. The steps to 
 - Download and install JDK 1.7 (or higher) <br/>
 - Download and install Eclipse Luna (or higher) <br/>
 - Open Eclipse <br/>
-- Go to Help->
-- Install Organic using Organic's <a href="http://wnoizumi.github.io/organic/plugin">update site</a> <br/>
+- Go to Help->Install New Software <br/>
+- Add Organic's <a href="http://wnoizumi.github.io/organic/plugin">update site</a> <br/>
+- Install Organic <br/>
 
 
 ### References
