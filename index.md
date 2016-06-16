@@ -18,7 +18,7 @@ He is professor at IFPR (Federal Institute of Parana). In 2015, he obtained a ma
 ## Experience
 
 <ul class="experience">
-  <li>Professor at IFPR - 02/2016 - Currently</li>
+  <li>Lecturer at IFPR - 02/2016 - Currently</li>
   <li>Software Developer at HSBC GLT – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
   <li>Software Developer at Objective Solutions – 05/2012 – 01/2013</li>
