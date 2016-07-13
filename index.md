@@ -25,6 +25,23 @@ He is professor at IFPR (Federal Institute of Parana). In 2015, he obtained a ma
   <li>Software Developer at Cwork Sistemas – 09/2010 a 05/2012</li>
 </ul>
 
+## Awards
+
+<ul class="awards">
+  <li>3rd Best MSc Dissertation - Sociedade Brasileira de Computação (SBC) - 2016</li>
+  <li>Java Assessment Topper - HSBC Global Tecnology - 2015</li>
+  <li>3rd Best Paper of SBES - Sociedade Brasileira de Computação (SBC) - 2014</li>
+  <li>Best Paper of WMOD - Sociedade Brasileira de Computação (SBC) - 2014</li>
+  <li>FAPERJ Nota 10 - 2014</li>
+</ul>
+
+## Publications
+
+Links below contain information about my publications:
+
+<a href="https://scholar.google.com.br/citations?user=8Kkur44AAAAJ&hl=pt-BR&oi=sra">- Google Scholar</a>
+<a href="http://dblp.uni-trier.de/pers/hd/o/Oizumi:Willian_Nalepa">- DBLP</a>
+
 ## Research Topics
 
 <ul class="research">
