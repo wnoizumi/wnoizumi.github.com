@@ -6,7 +6,7 @@ tagline:
 
 ## About Willian
 
-He is professor at IFPR (Federal Institute of Parana). In 2015, he obtained a master's degree in Informatics from the Pontifical Catholic University of Rio de Janeiro (PUC-RIO). He also holds a bachelor's degree in Informatics from the Maringa State University (UEM). He worked in research, development and consultancy projects in the Software Engineering Laboratory at PUC-RIO. He worked as software developer at HSBC GLT, Objective Solutions, and Cwork Sistemas.
+He is lecturer at IFPR (Federal Institute of Parana). In 2015, he obtained a master's degree in Informatics from the Pontifical Catholic University of Rio de Janeiro (PUC-RIO). He also holds a bachelor's degree in Informatics from the Maringa State University (UEM). He worked in research, development and consultancy projects in the Software Engineering Laboratory at PUC-RIO. He worked as software developer at HSBC GLT, Objective Solutions, and Cwork Sistemas.
 
 ## Education
 
@@ -19,7 +19,7 @@ He is professor at IFPR (Federal Institute of Parana). In 2015, he obtained a ma
 
 <ul class="experience">
   <li>Lecturer at IFPR - 02/2016 - Currently</li>
-  <li>Software Developer at HSBC GLT – 03/2015 - 12/2015</li>
+  <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
   <li>Software Developer at Objective Solutions – 05/2012 – 01/2013</li>
   <li>Software Developer at Cwork Sistemas – 09/2010 a 05/2012</li>
@@ -29,7 +29,7 @@ He is professor at IFPR (Federal Institute of Parana). In 2015, he obtained a ma
 
 <ul class="awards">
   <li>3rd Best MSc Dissertation - Sociedade Brasileira de Computação (SBC) - 2016</li>
-  <li>Java Assessment Topper - HSBC Global Tecnology - 2015</li>
+  <li>Java Assessment Topper - HSBC Global Technology - 2015</li>
   <li>3rd Best Paper of SBES - CBSoft - 2014</li>
   <li>Best Paper of WMOD - CBSoft - 2014</li>
   <li>FAPERJ Nota 10 - 2014</li>
