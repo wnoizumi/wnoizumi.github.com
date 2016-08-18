@@ -4,7 +4,7 @@ title: Coding Dojo
 tagline: 
 ---
 
-# Coding Dojo
+# Informações Úteis
 
 - 18/08/2016
 
