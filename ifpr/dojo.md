@@ -1,3 +1,11 @@
+---
+layout: page
+title: Coding Dojo
+tagline: 
+---
+
+# Coding Dojo
+
 - 18/08/2016
 
 Enunciado: 
