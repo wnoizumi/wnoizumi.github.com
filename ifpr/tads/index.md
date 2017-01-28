@@ -4,18 +4,8 @@ title: TADS - Análise e Desenvolvimento de Sistemas
 tagline: 
 ---
 
-## Disciplinas - 2016
+## Disciplinas - 2017
 
-Segundo Ano:
+<a href="https://drive.google.com/drive/folders/0B_jYjhszA34iSW9JMVE3V3pUcjA?usp=sharing">- Segundo Ano</a>
 
-<ul class="segundo">
-  <li><a href="/ifpr/tads/esI">Engenharia de Software I</a></li>
-  <li><a href="/ifpr/tads/integrador">Projeto Integrador</a></li>
-</ul>
-
-Terceiro Ano:
-
-<ul class="terceiro">
-  <li><a href="/ifpr/tads/esII">Engenharia de Software II</a></li>
-  <li><a href="/ifpr/tads/topicos">Tópicos Especiais em Tecnologia da Informação</a></li>
-</ul>
+<a href="https://drive.google.com/drive/folders/0B_jYjhszA34iclNqWUNHS1N6Nzg?usp=sharing">- Terceiro Ano</a>
