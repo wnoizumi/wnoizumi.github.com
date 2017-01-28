@@ -11,6 +11,7 @@ He is lecturer at IFPR (Federal Institute of Parana). In 2015, he obtained a mas
 ## Education
 
 <ul class="education">
+  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – PhD in Informatics – started in 2017. Advisor: Alessandro Garcia.</li>
   <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – MSc in Informatics – 2013 to 2015. Advisor: Alessandro Garcia.</li>
   <li>Maringa State University – UEM – BS in Informatics – 2008 to 2012. Advisors: Sandra Ferrari and Thelma Colanzi.</li>
 </ul>
