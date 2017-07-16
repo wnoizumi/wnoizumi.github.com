@@ -1,0 +1,75 @@
+div.algorithm {
+	border: thin green solid;
+	margin: 1.5em;
+	padding: 0.5em;
+	width: 900px;
+}
+div.algorithm p {
+	text-align: center;
+	font-weight:bolder;
+	font-size: smaller;
+	text-indent: 0;
+}
+
+div.questions{
+	border: thin green solid;
+	margin: 1.5em;
+	padding: 0.5em;
+	text-align: left;
+}
+
+div.command {
+	border: thin green solid;
+	margin: 1.5em;
+	padding: 0.5em;
+	text-align: left;
+	font-weight:bolder;
+	font-size: smaller;
+  }
+
+
+figure{
+	border: thin solid green;
+	margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 40px;
+    margin-right: 40px;
+
+}
+
+figcaption {
+	text-align: center;
+	font-weight:bolder;
+	font-size: smaller;
+  }
+
+caption {
+	text-align: center;
+	font-weight:bolder;
+	font-size: smaller;
+    
+  }
+
+.logo{
+    display:inline-block;
+    margin:5px 20px;
+    padding:5px;
+}
+
+
+
+img.logo {
+	width:auto;
+	max-width:20%;
+	height:auto;
+}
+
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
+.tg .tg-xpce{font-weight:bold;background-color:#67fd9a;text-align:center;vertical-align:top}
+.tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+.tg .tg-be9c{font-weight:bold;background-color:#67fd9a;vertical-align:top}
+</style>

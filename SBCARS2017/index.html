@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="On the Identification of Design Problems with Code Smell Agglomerations">
+    <meta name="author" content="Willian Oizumi">
+
+    <title>SBCARS 2017 - SUBMISSION: On the Identification of Design Problems with Code Smell Agglomerations</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="grid.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="design.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="bower_components/highlightjs/styles/xcode.css">
+    <script src="bower_components/highlightjs/highlight.pack.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
+    <style type="text/css">
+        pre {
+            border: none;
+            background: #ffffff;
+            padding: 0px;
+        }
+        
+        .col-md-6 {
+            background: #ffffff;
+            border: none;
+            padding-bottom: 0px;
+        }
+        
+        body {
+            padding-top: 70px;
+            position: relative;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('body').scrollspy({
+                target: '#mainNavBar'
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <nav id="mainNavBar" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav">
+                    <li><a href="#abstract">Abstract</a></li>
+                    <li><a href="#dp">Design Problems</a></li>
+                    <li><a href="#selection">Participant Selection</a></li>
+                <!--    <li><a href="#procedures">Procedures on Communicability Evaluation</a></li> -->
+                    <li><a href="#download">Download</a></li>
+                    <li><a href="#references">References</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="container"  align="center">
+        <img src="figures/puc.png" alt="PUC-Rio">
+		<img src="figures/logoopus.png" alt="Opus Research Group">
+    </div>
+
+    <div class="container">
+
+        <div class="page-header" id="title" align="center">
+            <h1>On the Identification of Design Problems with Code Smell Agglomerations<br/>
+        </div>
+
+        This web page presents the supplementary material of the paper <i>On the Identification of Design Problems with Code Smell Agglomerations</i>. <br>
+        
+
+        <br>
+        Authors: Willian Oizumi, Leonardo Sousa, Alessandro Garcia, Roberto Oliveira, Anderson Oliveira, Carlos Lucena
+
+        <br><br>
+        Following sections present the complementary information regarding the paper.
+
+        <h3 class="page-header" id="abstract">Abstract</h3>
+
+        <p class="text-justify">
+            Software design comprises the overall organization of source code
+            into macro structures like components and interfaces. Unfortunately,
+            the maintainability of a system may be hampered due to
+            the unintended introduction of software design problems. Due to
+            such negative eect, design problems should be properly identied
+            and removed to maintain the evolvability of long-lived systems. To
+            identify design problems, developers can rely on the analysis of
+            code smells, which are surface symptoms of design problems. Since
+            each code smell is only a partial symptom of a design problem,
+            researchers proposed a strategy that agglomerates inter-related
+            code smells to reveal the full extension of design problems. Nevertheless,
+            there is little empirical evidence about the practical use of
+            agglomerated code smells for the identication of design problems.
+            Therefore, in this paper we assessed a strategy called code smell
+            agglomeration. This evaluation was based on quantitative and qualitative
+            analysis. For the quantitative analysis, we performed an
+            experiment with 11 professionals, comparing the use of agglomerations
+            to the traditional use of code smells. On the other hand, in
+            the qualitative analysis, we conducted a post-experiment survey
+            and an evaluation based on the semiotic engineering. Results indicate
+            that agglomerations can help developers to nd more design
+            problems with fewer false positives. In addition, our qualitative
+            analysis revealed that agglomerations can yield even better results.
+            To make it possible, diculties faced by developers must be tackled.
+            For instance, we observed that (1) the information provided by
+            an agglomeration would be better used if it were synthesized into
+            an unique and concise representation, (2) textual information of
+            agglomerations should use a simpler terminology to be more easily
+            understandable, and (3) developers would benet from the implementation
+            of an algorithm capable of suggesting possible design
+            problems according to the symptoms revealed by an agglomeration. </p>
+
+    </div>
+    <!-- /container -->
+
+    <div class="container">
+
+        <h3 class="page-header" id="dp">Design Problems</h3>
+
+        <p class="text-justify">
+            We applied a quasi-experiment <a href="#shadish">(Shadish, 2001)</a>. A quasi-experiment is an experiment in which the unit/groups are not assigned
+            to conditions randomly.
+            The experiment was conducted individually with each participant.
+            They had to perform the experiment in two steps with four
+            tasks in each one. Both steps comprise the same set of task, the
+            only diference between the steps was regarding the usage of agglomerations.
+
+            We divided the participants
+            into two groups. The 1st group would identify design problems
+            using agglomerations in the 1st step and after they would identify
+            design problems using a list of non-agglomerated code smells in
+            2nd step. The second group of participants would make the
+            identication inversely: using the non-agglomerated code smells
+            in the 1st step and then using the agglomerations in the second
+            step.
+        </p>
+
+        <p class="text-justify">
+            A design problem is a design characteristic
+            that negatively impacts quality attributes such as maintainability and performance <a href="#bar">(Bar, 1998</a>;
+            <a href="#trifu">Trifu, 2007)</a>. Design problems affect
+            macro structures like components, interfaces, hierarchies and other
+            structures that are relevant for the design of the system. We considered 8 types of design problems in our
+            study. We opted by selecting these design problems since they are often considered as critical.
+            Following we present the design problems used in the study.
+
+
+        </p>
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg .tg-xpce{font-weight:bold;background-color:#67fd9a;text-align:center;vertical-align:top}
+            .tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+        </style>
+        <table class="tg" align="center">
+            <caption>
+                Table I. Design Problem description
+            </caption>
+            <tr>
+                <th class="tg-xpce">Name</th>
+                <th class="tg-xpce">Description</th>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Fat Interface</td>
+                <td class="tg-yzt1">Interface of a design component that offers only a general, ambiguous entry-point that provides non-cohesive services, thereby complicating the clients' logic.</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Unwanted Dependency</td>
+                <td class="tg-yzt1">Dependency that violates an intended design rule.</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Component Overload</td>
+                <td class="tg-yzt1">Design components that fulfill too many responsibilities.</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Cyclic Dependency</td>
+                <td class="tg-yzt1">Two or more design components that directly or indirectly depend on each other.</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Delegating Abstraction</td>
+                <td class="tg-yzt1">An abstraction that exists only for passing messages from one abstraction to another.</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Scattered Concern</td>
+                <td class="tg-yzt1">Multiple components that are responsible for realizing a crosscutting concern.</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Overused Interface</td>
+                <td class="tg-yzt1">Interface that is overloaded with many clients accessing it. That is, an interface with "too many clients".</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Unused Abstraction</td>
+                <td class="tg-yzt1">Design abstraction that is either unreachable or never used in the system.</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="container">
+
+        <h3 class="page-header" id="selection">Participant Selection</h3>
+        <p class="text-justify">
+        We needed participants that met the requirements described in Table II.
+            We selected developers to identify design problems by sending a characterization
+            questionnaire for a group of developers of our network.
+            Their answers were analyzed to determine which of them were eligible to participate
+            in the study based on the following requirements:
+        </p>
+
+        <p>
+
+            <ol>
+
+                <li>R1. Four years or more of experience with software development and maintenance. We have chosen four years because this is the average time used by companies such
+                    as Yahoo <a href="#yahoo">(Yahoo, 2017)</a> and Twitter <a href="#twitter">(Twitter, 2017)</a> to classify a developer as experienced.</li>
+
+                <li>R2. No previous knowledge about Push Pull and Workflow Manager.</li>
+
+                <li>R3. At least basic knowledge about code smells.</li>
+
+                <li>R4. At least intermediary knowledge on Java programming and Eclipse IDE. </li>
+
+
+
+            </ol>
+
+        </p>
+
+        <p class="text-justify">
+            We included in the questionnaire a description of our definition of knowledge level,
+            thereby allowing developers to have a similar interpretation of the possible answers.
+            Table II presents the definition of knowledge level that developers received.
+        </p>
+
+        <table class="tg" align="center">
+            <caption>
+            Table II. Knowledge classification
+            </caption>
+                <tr>
+                    <th class="tg-be9c">Classification</th>
+                    <th class="tg-be9c">Description</th>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">None</td>
+                    <td class="tg-yzt1">I have never heard about it</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Minimum</td>
+                    <td class="tg-yzt1">I have heard about it, but I do not use it</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Basic</td>
+                    <td class="tg-yzt1">I have a general understanding, but I almost never use it</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Intermediary</td>
+                    <td class="tg-yzt1">I have a good understanding, and I use basic features sometimes</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Advanced</td>
+                    <td class="tg-yzt1">I have a deep understanding, and I often use advanced features</td>
+                </tr>
+                <tr>
+                    <td class="tg-yzt1">Expert</td>
+                    <td class="tg-yzt1">I am a specialist in this topic, and I use many features almost every day</td>
+                </tr>
+        </table>
+
+        <br>
+    </div>
+
+<!--
+    <div class="container">
+
+        <h3 class="page-header" id="procedures">Communicability Evaluation</h3>
+
+        <p class="text-justify">
+            By conducting the survey,
+            we were able to gather the opinion of developers regarding the
+            use of code smell agglomerations. What is reported in the survey may not be what actually happens in
+            practice <a href="#easterbrook">(Easterbrook, 2008)</a>. Therefore, to obtain more reliable results, we conducted an
+            evaluation using the Communicability Evaluation Method (CEM)
+            <a href="#leitao">(Souza and Leitão, 2009)</a>. This method is based on the theory of Semiotic Engineering
+            and is intended to find ruptures of communication when a user
+            interacts with a system. In the context of this paper, system is the
+            Organic tool and user is the software developer that uses code smell
+            agglomerations to identify design problems.
+        </p>
+
+        <p class="text-justify>">
+            To apply CEM, we followed the steps and procedures recommended by <a href="#leitao">Souza and Leitão</a>. In this context, CEM
+            can be applied being divided in five steps: (0) Preparation, (1) Tagging, (2) Interpretation, (3) Semiotic Profile
+            and (4) Conclusion. Following we describe the 2 first steps.
+        </p>
+
+        <h4>Step 0 - Preparation</h4>
+        <h5>Participants Profile</h5>
+        <p class="=text-justify">
+            To this study, we selected participants that meet the following requirements:
+        </p>
+
+        <ul>
+            <li>At least 4 years of experience with software development</li>
+            <li>Intermediary knowledge about software architecture</li>
+            <li>Advanced knowledge about Java programming language</li>
+            <li>Basic knowledge about Eclipse development ambient</li>
+            <li>Basic knowledga about code smells</li>
+        </ul>
+
+        <p class="=text-justify">
+            This profile is justified by the fact that Organic is part of a complex domain, which is not know by all the
+            software developers (our target audience). Participants that have a minimal knowledge about the involved concepts have
+            more chance revealing communicability problems when utilizing the tool.
+
+            Based on this profile, we choose 3 participants, as described in Table III.
+        </p>
+
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+            .tg .tg-mzex{font-weight:bold;background-color:#67fd9a}
+            .tg .tg-kqkn{font-weight:bold;background-color:#67fd9a;text-align:center}
+            .tg .tg-be9c{font-weight:bold;background-color:#67fd9a;vertical-align:top}
+            .tg .tg-bsv2{background-color:#efefef}
+        </style>
+        <table class="tg" align="center">
+            <tr>
+                <th class="tg-mzex" rowspan="2">Participant</th>
+                <th class="tg-kqkn" colspan="4">Knowledge</th>
+            </tr>
+            <tr>
+                <td class="tg-mzex">Software Architecture</td>
+                <td class="tg-be9c">Java Language</td>
+                <td class="tg-be9c">Eclipse IDE</td>
+                <td class="tg-be9c">Code Smells</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">1</td>
+                <td class="tg-bsv2">Advanced</td>
+                <td class="tg-yzt1">Advanced</td>
+                <td class="tg-yzt1">Advanced</td>
+                <td class="tg-yzt1">Advanced</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">2</td>
+                <td class="tg-bsv2">Intermediary</td>
+                <td class="tg-yzt1">Advanced</td>
+                <td class="tg-yzt1">Advanced</td>
+                <td class="tg-yzt1">Basic</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">3</td>
+                <td class="tg-bsv2">Advanced</td>
+                <td class="tg-yzt1">Advanced</td>
+                <td class="tg-yzt1">Basic</td>
+                <td class="tg-yzt1">Intermediary</td>
+            </tr>
+        </table>
+
+        <br/>
+        <br/>
+
+        <h5>Experiment Scenario</h5>
+
+        <p class="text-justify>">
+            Since Organic is designed to just perform the architectural problems identification, the experiment scenario is
+            composed by just one task. During 30 minutes, the developer need to search for architectural problems in the
+            source code of a given software project. In this task context, the software project selected was Apache OODT.
+            For each problem found by the participant, the following informations should be provided:
+        </p>
+            <ul>
+                <li>Brief description about the problem</li>
+                <li>Classes and methods that perform the source code problem </li>
+                <li>Features of the tool that were helpful on the problem detection</li>
+            </ul>
+
+        <p class="text-justify>">
+            During the identification task, besides tool access, the participant also could consult three documents:
+            (1) Apache OODT documentation, (2) Reference about the basic concepts involved on the task and (3) Organic manual.
+        </p>
+
+        <br/>
+        <h5>Ambient and Infrastructure</h5>
+        To realize this study, we defined a ambient and infrastructure composed by a indivual room equipped with a notebook
+        with the following configuration:
+
+        <p>Hardware</p>
+        <ul>
+            <li>8 GB RAM</li>
+            <li>Intel Core i5 2.7GHz Processor</li>
+            <li>Built-in microphone</li>
+        </ul>
+
+        <p>Software</p>
+        <ul>
+            <li>Organic plugin</li>
+            <li>Windows 10 operational system</li>
+            <li>JDK 1.8</li>
+            <li>Eclipse Luna IDE</li>
+            <li>Rabbit plugin</li>
+            <li>Screen capture system Active Presenter</li>
+        </ul>
+
+        <p>Eclipse Luna was chosen since Organic just works with this version. </p>
+
+
+        <br/>
+        <h5>Interview pre and post-experiment</h5>
+        <p class="text-justify">
+            With interviews pre-experiment, we collected participants profile information. The post-experiment questions
+            were designed individually for each participant. The following questions were done to all participants:
+
+            <ul>
+        <li>Which were the main difficulties to realize the activity?</li>
+        <li>Which tool features were most useful? </li>
+    </ul>
+        </p>
+
+        <br/>
+        <h5>Data collected</h5>
+        <p>
+            To realize the next steps, we collected the following informations:
+        </p>
+
+        <ul>
+            <li>Answers given during the interviews</li>
+            <li>Audio and video recorded from the computer during the task</li>
+            <li>Report given by Rabbit plugin</li>
+            <li>Annotations done during the task</li>
+        </ul>
+
+        <h4>Step 1 - Tagging</h4>
+        <p class="text-align">
+            In the previous step, the researcher watch the recording sessions of each participant and identifies passages
+            that are indicative of breakdown in communication. Each passage is tagged with one of 13 specific utterances
+            divided in three types: (1) Partial failures, (2) Temporary Failures and (3) Complete failures. Following we
+            describe each tag.
+        </p>
+
+        <h5>
+            <b>Partial Failures:</b>
+        </h5>
+
+        <ul>
+            <li><b>Thanks, but no</b>: The user ignores some preferential intended affordance present in the application's
+            interface and finds another way around task execution to achieve his goal</li>
+            <li><b>I can do otherwise</b>: Typically, the user achieves his goal in a way that is not optimal, because
+            he is not fully away of designer's deputy discourse</li>
+        </ul>
+
+        <h5>
+            <b>Temporary Failures:</b>
+        </h5>
+
+        <ul>
+            <li><b>Where am I?</b>: When the user is interpreting (and potentially using) signs in the wrong context
+            of the application. </li>
+            <li><b>Oops...</b>: The user perform some action but the outcome is not what he expected.</li>
+            <li><b>I can't do it this way</b>: The user abandons a path of interaction (composed of many steps) because
+            he thinks it is not leading him toward his current goal</li>
+            <li><b>What happened?</b>: The user do not get feedback from the system and are apparently unable to assign
+            meaning to the function's outcome</li>
+            <li><b>Where is it?</b>: The user seems to be searching for a specific function but demonstrates difficulty
+            in locating it.</li>
+            <li><b>What's this?</b>: The user seems to be exploring the possibilities of interactions to gain more (or some)
+            understangind of what a specific function achieves.</li>
+            <li><b>Help!</b>: The user deliberately calls a help function, using menus, dragging question marks, or asking
+            somebody for help (e.g. the observer or a colleague).</li>
+            <li><b>Why doesn't it?</b>: The user expects some sort of outcome, but does not achieve it.</li>
+            <li><b>What now?:</b> The user is clearly searching for a clue of what to do next and not searching for a specific
+            function that hopes will achieve what he wants to do</li>
+        </ul>
+
+        <h5>
+            <b>Complete Failures:</b>
+        </h5>
+        <ul>
+            <li><b>I give up</b>: The user is unable to achieve the proposed goal, either because he does not know how to or
+             because he does not have enough time, or will, or patience to do it</li>
+            <li><b>Looks fine to me...</b>: The user achieve some result he believe is the expected one. At times he misinterprets
+             feedback from the application and does not realize taht the result is not the expected one.</li>
+        </ul>
+
+        <p class="text-align">
+            Table IV presents the frequency of each tag (rows) by participants(columns). The total frequency is summarized in the last column.
+        </p>
+
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
+            .tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+            .tg .tg-kqkn{font-weight:bold;background-color:#67fd9a;text-align:center}
+            .tg .tg-bsv2{background-color:#efefef}
+            .tg .tg-j4kc{background-color:#efefef;text-align:center}
+        </style>
+        <table class="tg" align="center">
+            <caption>
+                Table IV. Frequency of each tag
+            </caption>
+            <tr>
+                <th class="tg-kqkn" rowspan="2">Tag</th>
+                <th class="tg-kqkn" colspan="3">Participant</th>
+                <th class="tg-kqkn" rowspan="2">Total</th>
+            </tr>
+            <tr>
+                <td class="tg-kqkn">P1</td>
+                <td class="tg-kqkn">P2</td>
+                <td class="tg-kqkn">P3</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">I give up</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">3</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">It goes in another way</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">0</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">2</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">And now?</td>
+                <td class="tg-j4kc">0</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">0</td>
+                <td class="tg-j4kc">1</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">What is this?</td>
+                <td class="tg-uqo3">1</td>
+                <td class="tg-uqo3">4</td>
+                <td class="tg-uqo3">2</td>
+                <td class="tg-uqo3">7</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Help!</td>
+                <td class="tg-uqo3">2</td>
+                <td class="tg-uqo3">8</td>
+                <td class="tg-uqo3">2</td>
+                <td class="tg-uqo3">12</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Why it does not work?</td>
+                <td class="tg-uqo3">4</td>
+                <td class="tg-uqo3">0</td>
+                <td class="tg-uqo3">0</td>
+                <td class="tg-uqo3">4</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <p>
+            In table V we present the frequency of comunication ruptures, categorized by type of rupture.
+        </p>
+
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg .tg-b44r{background-color:#cbcefb;vertical-align:top}
+            .tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
+            .tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+            .tg .tg-huad{background-color:#ffccc9}
+            .tg .tg-kqkn{font-weight:bold;background-color:#67fd9a;text-align:center}
+            .tg .tg-2mjt{background-color:#ffccc9;text-align:center}
+            .tg .tg-bsv2{background-color:#efefef}
+            .tg .tg-j4kc{background-color:#efefef;text-align:center}
+            .tg .tg-sh07{background-color:#cbcefb;text-align:center;vertical-align:top}
+        </style>
+        <table class="tg" align="center">
+            <caption>
+                Table V. Frequency of communication ruptures
+            </caption>
+            <tr>
+                <th class="tg-kqkn" rowspan="2">Category</th>
+                <th class="tg-kqkn" colspan="3">Participant</th>
+                <th class="tg-kqkn" rowspan="2">Total</th>
+            </tr>
+            <tr>
+                <td class="tg-kqkn">P1</td>
+                <td class="tg-kqkn">P2</td>
+                <td class="tg-kqkn">P3</td>
+            </tr>
+            <tr>
+                <td class="tg-huad">Full faults</td>
+                <td class="tg-2mjt">1</td>
+                <td class="tg-2mjt">1</td>
+                <td class="tg-2mjt">1</td>
+                <td class="tg-2mjt">3</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Partial faults</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">0</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">2</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Temporary faults Type 1 - "Looking to communicate"</td>
+                <td class="tg-j4kc">0</td>
+                <td class="tg-j4kc">1</td>
+                <td class="tg-j4kc">0</td>
+                <td class="tg-j4kc">1</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Temporary faults Type 2 - "Looking to fix an error"</td>
+                <td class="tg-uqo3">0</td>
+                <td class="tg-uqo3">0</td>
+                <td class="tg-uqo3">0</td>
+                <td class="tg-uqo3">0</td>
+            </tr>
+            <tr>
+                <td class="tg-b44r">Temporary faults Type 3 - "Looking to understand the rules"</td>
+                <td class="tg-sh07">7</td>
+                <td class="tg-sh07">12</td>
+                <td class="tg-sh07">4</td>
+                <td class="tg-sh07">23</td>
+            </tr>
+        </table>
+    </div>
+
+-->
+
+    <div class="container">
+
+        <h3 class="page-header" id="download">Download</h3>
+
+        <p class="text-justify">
+            Following we present the main artifacts used in the study. For privacy reasons, we do not provide examples of the videos recorded in the environment, the audio transcription neither the elements affected by design problems.
+        </p>
+
+        <table class="tg">
+            <caption>
+                Table VI. Link to donwload the artifacts used in the study
+            </caption>
+            <tr>
+                <th class="tg-be9c">Artifact</th>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Basic_Concepts.pdf" target="_blank">Basic concepts</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Component-PushPull.pdf" target="_blank">Push Pull Framework</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Component-Workflow.pdf" target="_blank">Workflow Management Component</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Diagnosing%20Design%20Problems%20-%20Google%20Forms.pdf" target="_blank">Diagnosing Design Problems (Form)</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Diagnosing%20Design%20Problems_%20Tasks%20-%20Google%20Forms.pdf" target="_blank">Diagnosing Design Problems Task (Form)</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Guide-Synthesis_Technique.pdf" target="_blank">Synthesis Technique Guide</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/Guide-Traditional_Technique.pdf" target="_blank">Traditional Technique Guide</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="https://github.com/wnoizumi/experiment" target="_blank">Source code repository</a></td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/paper.pdf" target="_blank">Submitted Paper</a></td>
+            </tr>
+            
+        </table>
+
+    </div>
+
+    <div class="container">
+        <h3 class="page-header" id="references">References</h3>
+
+		<p>
+		<ol>
+        <li id="shadish">W. R. Shadish, T. D. Cook, and Donald T. Campbell, <i>Experimental and
+            Quasi-Experimental Designs for Generalized Causal Inference (2 ed.).</i> Houghton
+            Mifflin, 2001</li>
+            <li id="trifu">A. Trifu and U. Reupke, <i>Towards automated restructuring of object oriented systems</i> in Proceedings of the 11th European Conference on Software Maintenance and Reengineering, 2007.</li>
+            <li id="bar">H. Bär and O. Ciupke, <i>Exploiting design heuristics for automatic problem detection</i> in Workshop Ion on Object-Oriented Technology, 1998.</li>
+            <li id="twitter">Twitter. <i>Working at Twitter"</i>. Available at <a href="https://about.twitter.com/careers" target="_blank">https://about.twitter.com/careers</a></li>
+            <li id="yahoo">Yahoo!. <i>Explore Career Opportunities"</i>. Available at <a href="https://careers.yahoo.com/us/buildyourcareer" target="_blank">https://careers.yahoo.com/us/buildyourcareer</a></li>
+        <!-- <li id="fowler">M. Fowler. <i>Refactoring: Improving the Design of Existing Code.</i> Addison-Wesley, Boston, MA, USA, 1999.</li>
+         <li id="easterbrook">Steve Easterbrook, Janice Singer, Margaret-Anne Storey, and Daniela Damian,
+             <i>Selecting Empirical Methods for Software Engineering Research.</i> Springer 285–311, 2008. <a href=" https://doi.org/10.1007/978-1-84800-044-5_11">DOI</a>.</li>
+         <li id="leitao">Clarisse Sieckenius De Souza and Carla Faria Leitão,
+         <i>Semiotic engineering methods for scientic research in HCI, </i>
+             Synthesis Lectures on Human-Centered Informatics 2, 1-222, 2009.</li>
+
+             -->
+		</ol>
+    </div>
+
+
+</body>
+
+</html>
