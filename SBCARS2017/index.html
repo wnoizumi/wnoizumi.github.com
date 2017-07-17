@@ -68,7 +68,9 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#abstract">Abstract</a></li>
                     <li><a href="#dp">Design Problems</a></li>
+                    <li><a href="agglomerations">Categories of Agglomerations</a></li>
                     <li><a href="#selection">Participant Selection</a></li>
+                    <li></li>
                 <!--    <li><a href="#procedures">Procedures on Communicability Evaluation</a></li> -->
                     <li><a href="#download">Download</a></li>
                     <li><a href="#references">References</a></li>
@@ -224,9 +226,60 @@
 
     <div class="container">
 
+        <h3 class="page-header" id="agglomerations">Categories of Agglomeration</h3>
+
+        <p class="text-justify">
+           Code smells are recurring micro structures in the source code that may indicate the manifestation of design problems [8]
+        </p>
+
+        <p class="text-justify">
+           A code smell agglomeration is a group of inter-related code smells that may indicate the full extension of
+            a design problem [26]. The relations among code smells are determined by the relationships that exists between
+            the smelly code elements. In our context, a smelly code element is a element that is affected by a code smell.
+            Relations among smelly code may assume different forms, according to the agglomeration category. Below, on Table II,
+            we present a brief definition of each category
+        </p>
+
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg .tg-kqkn{font-weight:bold;background-color:#67fd9a;text-align:center}
+            .tg .tg-bsv2{background-color:#efefef}
+        </style>
+        <table class="tg" align="center">
+            <caption>
+                Table II. Agglomeration Categories Definitions
+            </caption>
+            <tr>
+                <th class="tg-kqkn">Category</th>
+                <th class="tg-kqkn">Description</th>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Intra-method</td>
+                <td class="tg-bsv2">Agglomerations of code smells that are located in single methods. There is an agglomeration in a method if the method is affected by at least Tmethod + 1 code smells. Tmethod is a threshold that can be defined by the developers.</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Intra-class</td>
+                <td class="tg-bsv2">Just like methods, classes may also be affected by diverse code smells. There is an agglomeration in a class if the class is affected by at least Tclass + 1 code smells. Tclass is a threshold that can be defined by the developers.</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Intra-component</td>
+                <td class="tg-bsv2">Agglomerations of code smells that occur inside of a single design component. This agglomeration comprises code elements that are located within a single component, and the elements are affected by the same type of code smell. The elements also must be connected by method calls or type references.</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Hierachical</td>
+                <td class="tg-bsv2">Agglomerations composed by code elements that are affected by the same type of code smells, and these elements implement the same interface or inherit from the same code element.</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="container">
+
         <h3 class="page-header" id="selection">Participant Selection</h3>
         <p class="text-justify">
-        We needed participants that met the requirements described in Table II.
+        We needed participants that met the requirements described in Table III.
             We selected developers to identify design problems by sending a characterization
             questionnaire for a group of developers of our network.
             Their answers were analyzed to determine which of them were eligible to participate
@@ -260,7 +313,7 @@
 
         <table class="tg" align="center">
             <caption>
-            Table II. Knowledge classification
+            Table III. Knowledge classification
             </caption>
                 <tr>
                     <th class="tg-be9c">Classification</th>
@@ -665,7 +718,7 @@
 
         <table class="tg">
             <caption>
-                Table VI. Link to donwload the artifacts used in the study
+                Table IV. Link to download the artifacts used in the study
             </caption>
             <tr>
                 <th class="tg-be9c">Artifact</th>
