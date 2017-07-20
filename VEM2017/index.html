@@ -67,9 +67,8 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
                 <ul class="nav navbar-nav">
                     <li><a href="#abstract">Abstract</a></li>
-                    <li><a href="#dp">Design Problems</a></li>
-                    <li><a href="agglomerations">Categories of Agglomerations</a></li>
-                    <li><a href="#selection">Participant Selection</a></li>
+                    <li><a href="#profiles">Companies and Developers Profiles</a></li>
+                    <li><a href="#procedure">Experimental Procedure</a></li>
                     <li></li>
                 <!--    <li><a href="#procedures">Procedures on Communicability Evaluation</a></li> -->
                     <li><a href="#download">Download</a></li>
@@ -113,132 +112,218 @@
 
     <div class="container">
 
-        <h3 class="page-header" id="dp">Design Problems</h3>
+        <h3 class="page-header" id="profiles">Companies and Developers Profiles</h3>
 
         <p class="text-justify">
-           
+            In our study, we intended to assess a graph-based visualization for the purpose of evaluating its effectiveness
+            in supporting developers on the identification of design problems. The context
+            comprises professional developers reviewing source code of software projects developed
+            by themselves. Thus, we performed a controlled experiment aimed at answering the following
+            research questions:
         </p>
 
+        <ul>
+            <li><b>RQ1:</b> Does graph-based visualization of smell agglomerations support identification of design problems?</li>
+            <li><b>RQ2:</b> How to improve visualization of smell agglomerations?</li>
+        </ul>
+
         <p class="text-justify">
-           
+            To answer both research questions, we selected two Brazilian software companies (CO1 and CO2).
+            After selecting the companies, we selected 10 developers, 6 from CO1 and 4 from CO2.
+            To obtain a profile of each developer, we applied a questionnaire regarding
+            their knowledge of software development concepts, Java programming language, code
+            smell, and design problems. Below we present the description of both companies and on Table I we present
+            the details about the developers profiles, where we divided them by the pairs that they formed to perform
+            the task and by which company they belong.
+
+        <ul>
+            <li><b>CO1:</b> This company is incubated at the Federal University of Alagoas (UFAL) and they provide
+            systems for the university, like the academic system used by the students.</li>
+            <li><b>CO2:</b> This company deals with renting and selling of print devices. Also, they have a department
+            specialized in software development.</li>
+        </ul>
 
         </p>
         <style type="text/css">
             .tg  {border-collapse:collapse;border-spacing:0;}
             .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
             .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg .tg-uqo3{background-color:#efefef;text-align:center;vertical-align:top}
             .tg .tg-xpce{font-weight:bold;background-color:#67fd9a;text-align:center;vertical-align:top}
-            .tg .tg-yzt1{background-color:#efefef;vertical-align:top}
-        </style>
-        <table class="tg" align="center">
-            <caption>
-                Table I. Design Problem description
-            </caption>
-            <tr>
-                <th class="tg-xpce">Name</th>
-                <th class="tg-xpce">Description</th>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Fat Interface</td>
-                <td class="tg-yzt1">Interface of a design component that offers only a general, ambiguous entry-point that provides non-cohesive services, thereby complicating the clients' logic.</td>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Unwanted Dependency</td>
-                <td class="tg-yzt1">Dependency that violates an intended design rule.</td>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Component Overload</td>
-                <td class="tg-yzt1">Design components that fulfill too many responsibilities.</td>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Cyclic Dependency</td>
-                <td class="tg-yzt1">Two or more design components that directly or indirectly depend on each other.</td>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Delegating Abstraction</td>
-                <td class="tg-yzt1">An abstraction that exists only for passing messages from one abstraction to another.</td>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Scattered Concern</td>
-                <td class="tg-yzt1">Multiple components that are responsible for realizing a crosscutting concern.</td>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Overused Interface</td>
-                <td class="tg-yzt1">Interface that is overloaded with many clients accessing it. That is, an interface with "too many clients".</td>
-            </tr>
-            <tr>
-                <td class="tg-yzt1">Unused Abstraction</td>
-                <td class="tg-yzt1">Design abstraction that is either unreachable or never used in the system.</td>
-            </tr>
-        </table>
-    </div>
-
-    <div class="container">
-
-        <h3 class="page-header" id="agglomerations">Categories of Agglomeration</h3>
-
-        <p class="text-justify">
-           Code smells are recurring micro structures in the source code that may indicate the manifestation of design
-            problems <a href="#fowler">(Fowler, 1999)</a>.
-        </p>
-
-        <p class="text-justify">
-           A code smell agglomeration is a group of inter-related code smells that may indicate the full extension of
-            a design problem <a href="#oizumi">(Oizumi, 2016)</a>. The relations among code smells are determined by the relationships that exists between
-            the smelly code elements. In our context, a smelly code element is a element that is affected by a code smell.
-            Relations among smelly code may assume different forms, according to the agglomeration category. Below, on Table II,
-            we present a brief definition of each category
-        </p>
-
-        <style type="text/css">
-            .tg  {border-collapse:collapse;border-spacing:0;}
-            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
-            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
             .tg .tg-kqkn{font-weight:bold;background-color:#67fd9a;text-align:center}
-            .tg .tg-bsv2{background-color:#efefef}
+            .tg .tg-s0hm{background-color:#dddddd;text-align:center;vertical-align:top}
+            .tg .tg-zmv3{background-color:#dddddd;text-align:center}
+            .tg .tg-j4kc{background-color:#efefef;text-align:center}
         </style>
         <table class="tg" align="center">
             <caption>
-                Table II. Agglomeration Categories Definitions
+                Table I. Developers Profile
             </caption>
             <tr>
-                <th class="tg-kqkn">Category</th>
-                <th class="tg-kqkn">Description</th>
+                <th class="tg-kqkn">Company</th>
+                <th class="tg-kqkn">ID</th>
+                <th class="tg-kqkn">Education</th>
+                <th class="tg-xpce">Experience in Industry (Years)</th>
+                <th class="tg-xpce">Experience with Java (Years)</th>
+                <th class="tg-xpce">Number of Projects working with Java (Industry)</th>
+                <th class="tg-xpce">Perform Code Review?</th>
+                <th class="tg-xpce">Familiar with the term Code Smells?</th>
+                <th class="tg-xpce">Familiar with the term Design Problem?</th>
             </tr>
             <tr>
-                <td class="tg-bsv2">Intra-method</td>
-                <td class="tg-bsv2">Agglomerations of code smells that are located in single methods. There is an agglomeration in a method if the method is affected by at least Tmethod + 1 code smells. Tmethod is a threshold that can be defined by the developers.</td>
+                <td class="tg-s0hm" rowspan="6">CO1</td>
+                <td class="tg-s0hm">D1</td>
+                <td class="tg-s0hm">Undergraduate</td>
+                <td class="tg-s0hm">3</td>
+                <td class="tg-s0hm">3</td>
+                <td class="tg-s0hm">2</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">No</td>
             </tr>
             <tr>
-                <td class="tg-bsv2">Intra-class</td>
-                <td class="tg-bsv2">Just like methods, classes may also be affected by diverse code smells. There is an agglomeration in a class if the class is affected by at least Tclass + 1 code smells. Tclass is a threshold that can be defined by the developers.</td>
+                <td class="tg-zmv3">D2</td>
+                <td class="tg-zmv3">Graduate</td>
+                <td class="tg-s0hm">5</td>
+                <td class="tg-s0hm">10</td>
+                <td class="tg-s0hm">5</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">Yes</td>
             </tr>
             <tr>
-                <td class="tg-bsv2">Intra-component</td>
-                <td class="tg-bsv2">Agglomerations of code smells that occur inside of a single design component. This agglomeration comprises code elements that are located within a single component, and the elements are affected by the same type of code smell. The elements also must be connected by method calls or type references.</td>
+                <td class="tg-j4kc">D3</td>
+                <td class="tg-j4kc">Specialization</td>
+                <td class="tg-uqo3">13</td>
+                <td class="tg-uqo3">13</td>
+                <td class="tg-uqo3">-</td>
+                <td class="tg-uqo3">Yes</td>
+                <td class="tg-uqo3">No</td>
+                <td class="tg-uqo3">Yes</td>
             </tr>
             <tr>
-                <td class="tg-bsv2">Hierachical</td>
-                <td class="tg-bsv2">Agglomerations composed by code elements that are affected by the same type of code smells, and these elements implement the same interface or inherit from the same code element.</td>
+                <td class="tg-j4kc">D4</td>
+                <td class="tg-j4kc">Master</td>
+                <td class="tg-uqo3">14</td>
+                <td class="tg-uqo3">12</td>
+                <td class="tg-uqo3">50+</td>
+                <td class="tg-uqo3">Yes</td>
+                <td class="tg-uqo3">Yes</td>
+                <td class="tg-uqo3">Yes</td>
+            </tr>
+            <tr>
+                <td class="tg-zmv3">D5</td>
+                <td class="tg-zmv3">Graduate</td>
+                <td class="tg-s0hm">14</td>
+                <td class="tg-s0hm">12</td>
+                <td class="tg-s0hm">7</td>
+                <td class="tg-s0hm">Yes</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">Yes</td>
+            </tr>
+            <tr>
+                <td class="tg-zmv3">D6</td>
+                <td class="tg-zmv3">Master</td>
+                <td class="tg-s0hm">6</td>
+                <td class="tg-s0hm">6</td>
+                <td class="tg-s0hm">10</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">Yes</td>
+                <td class="tg-s0hm">Yes</td>
+            </tr>
+            <tr>
+                <td class="tg-s0hm" rowspan="4">CO2</td>
+                <td class="tg-uqo3">D7</td>
+                <td class="tg-uqo3">Graduate</td>
+                <td class="tg-uqo3">7</td>
+                <td class="tg-uqo3">6</td>
+                <td class="tg-uqo3">8</td>
+                <td class="tg-uqo3">Yes</td>
+                <td class="tg-uqo3">Yes</td>
+                <td class="tg-uqo3">Yes</td>
+            </tr>
+            <tr>
+                <td class="tg-uqo3">D8</td>
+                <td class="tg-uqo3">Undergraduate</td>
+                <td class="tg-uqo3">2</td>
+                <td class="tg-uqo3">0</td>
+                <td class="tg-uqo3">0</td>
+                <td class="tg-uqo3">Yes</td>
+                <td class="tg-uqo3">Yes</td>
+                <td class="tg-uqo3">Yes</td>
+            </tr>
+            <tr>
+                <td class="tg-s0hm">D9</td>
+                <td class="tg-s0hm">Undergraduate</td>
+                <td class="tg-s0hm">4</td>
+                <td class="tg-s0hm">5</td>
+                <td class="tg-s0hm">3</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">Yes</td>
+                <td class="tg-s0hm">No</td>
+            </tr>
+            <tr>
+                <td class="tg-s0hm">D10</td>
+                <td class="tg-s0hm">Undergraduate</td>
+                <td class="tg-s0hm">4</td>
+                <td class="tg-s0hm">4</td>
+                <td class="tg-s0hm">4</td>
+                <td class="tg-s0hm">No</td>
+                <td class="tg-s0hm">Yes</td>
+                <td class="tg-s0hm">Yes</td>
             </tr>
         </table>
-
     </div>
 
     <div class="container">
 
-        <h3 class="page-header" id="selection">Participant Selection</h3>
-        <p class="text-justify">
-        
+        <h3 class="page-header" id="procedure">Experimental Procedures</h3>
 
         <p class="text-justify">
-            
+            Our experiment encompassed two main activities: a training session and a session comprising the tasks of design problem identification.
+            The training session consisted of explaining and discussing basic concepts (e.g. code smell, design problem, and graph-based visualization).
+            The second activity was related to the identification of design problems, where the developers were provided with the list of smell agglomerations,
+            the graph-based visualization for each agglomeration, and the description of the code smells. We asked the developers to identify the design problems in pairs,
+            since it is a hard task and they can help each other <a href="#trifu">(Trifu, 2007)</a>.
+            Also, in pair, the developers were more inclined to discuss the problem,
+            giving us more input for our data analysis and during the tasks, they also had to classify the visualization for
+            each agglomeration into four categories of relevance:
+            <ul>
+                <li>Irrelevant</li>
+                <li>Slightly Relevant</li>
+                <li>Relevant</li>
+                <li>Highly Relevant</li>
+            </ul>
+            After the task, the developers answered a questionnaire about the usefulness of the visualization of agglomerations.
+            You can find the questionnaires in our <a href="#download">Download</a> section.
         </p>
 
-        
+        <h4>Data Collection Procedures</h4>
 
-        <br>
+        <p class="text-justify">
+            To answer both research questions, we performed qualitative analyses.
+            First we collected data through an online form, in which the developers chose based on a 4-point scale the
+            relevance of the visualization in the identification of design problem.
+            We count the number of each category of relevance to know how useful were the visualizations for the developers.
+            Later, we used data collected from questionnaires, logs, audios, and videos.
+            We divided the steps to conduct the qualitative analysis in two parts.
+            First, we prepared the environment with the Eclipse IDE and the Camtasia Studio.
+            Participants used the Eclipse IDE to import and analyze the source code.
+            On the other hand, we used Camtasia to record a video of the computer screen (screenshots)
+            as well as to record the audio. Second, we collected and analyzed the data.
+            Data collection was conducted by using the resources described above.
+            Through the experiment, we analyzed the data using the coding process from the Grounded Theory (GT)
+            <a href="#strauss">(Strauss and Corbin, 1998)</a>. We used only the open coding (1st phase) and the axial coding (2nd phase)
+            from GT to answer our research questions.  We transcribed the data of logs, audios, and video.
+            When analyzing the qualitative data, we created codes related to the speeches of the developers (1st phase of GT).
+            To eliminate discrepancies, three researchers validated the transcription.
+            After coding all the transcriptions, we related the codes to each other (2nd phase of GT).
+        </p>
+
+
     </div>
+
+
 
     <div class="container">
 
@@ -250,17 +335,19 @@
 
         <table class="tg">
             <caption>
-                Table IV. Link to download the artifacts used in the study
+                Table II. Link to download the artifacts used in the study
             </caption>
             <tr>
                 <th class="tg-be9c">Artifact</th>
-            </tr>            
+            </tr>
+            <tr>
+                <td class="tg-yzt1"><a href="download/questionnaire.pdf" target="_blank">Characterization Questionnaire</a></td>
+            </tr>
             <tr>
                 <td class="tg-yzt1"><a href="download/paper.pdf" target="_blank">Submitted Paper</a></td>
             </tr>
-            
-        </table>
 
+        </table>
     </div>
 
     <div class="container">
@@ -268,21 +355,29 @@
 
 		<p>
 		<ol>
-        <li id="shadish">W. R. Shadish, T. D. Cook, and Donald T. Campbell, <i>Experimental and
-            Quasi-Experimental Designs for Generalized Causal Inference (2 ed.).</i> Houghton
-            Mifflin, 2001</li>
-            <li id="trifu">A. Trifu and U. Reupke, <i>Towards automated restructuring of object oriented systems</i> in Proceedings of the 11th European Conference on Software Maintenance and Reengineering, 2007.</li>
-            <li id="bar">H. Bär and O. Ciupke, <i>Exploiting design heuristics for automatic problem detection</i> in Workshop Ion on Object-Oriented Technology, 1998.</li>
-            <li id="twitter">Twitter. <i>Working at Twitter"</i>. Available at <a href="https://about.twitter.com/careers" target="_blank">https://about.twitter.com/careers</a></li>
-            <li id="yahoo">Yahoo!. <i>Explore Career Opportunities"</i>. Available at <a href="https://careers.yahoo.com/us/buildyourcareer" target="_blank">https://careers.yahoo.com/us/buildyourcareer</a></li>
-            <li id="fowler">M. Fowler. <i>Refactoring: Improving the Design of Existing Code.</i> Addison-Wesley, Boston, MA, USA, 1999.</li>
-            <li id="oizumi">W Oizumi, A Garcia, L Sousa, B Cafeo, and Y Zhao,
-                <i>Code Anomalies Flock Together: Exploring Code Anomaly Agglomerations for Locating Design Problems</i>
-                in The 38th International Conference on Software Engineering, 2016.ç; USA</li>        
-		</ol>
-    </div>
+        <!--   <li id="shadish">W. R. Shadish, T. D. Cook, and Donald T. Campbell, <i>Experimental and
+               Quasi-Experimental Designs for Generalized Causal Inference (2 ed.).</i> Houghton
+               Mifflin, 2001</li> -->
+               <li id="trifu">A. Trifu and U. Reupke, <i>Towards automated restructuring of object oriented systems</i> in Proceedings of the 11th European Conference on Software Maintenance and Reengineering, 2007.</li>
+        <!--      <li id="bar">H. Bär and O. Ciupke, <i>Exploiting design heuristics for automatic problem detection</i> in Workshop Ion on Object-Oriented Technology, 1998.</li>
+              <li id="twitter">Twitter. <i>Working at Twitter"</i>. Available at <a href="https://about.twitter.com/careers" target="_blank">https://about.twitter.com/careers</a></li>
+              <li id="yahoo">Yahoo!. <i>Explore Career Opportunities"</i>. Available at <a href="https://careers.yahoo.com/us/buildyourcareer" target="_blank">https://careers.yahoo.com/us/buildyourcareer</a></li>
+              <li id="fowler">M. Fowler. <i>Refactoring: Improving the Design of Existing Code.</i> Addison-Wesley, Boston, MA, USA, 1999.</li>
+              <li id="oizumi">W Oizumi, A Garcia, L Sousa, B Cafeo, and Y Zhao,
+                  <i>Code Anomalies Flock Together: Exploring Code Anomaly Agglomerations for Locating Design Problems</i>
+                  in The 38th International Conference on Software Engineering, 2016.ç; USA</li>
+
+                  -->
+
+        <li id="strauss">Strauss, A. and Corbin, J.,
+            <i>Basics of Qualitative Research: Techniques and Procedures for Developing Grounded Theory.</i>
+            SAGE Publications, 1998.</li>
 
 
-</body>
+          </ol>
+      </div>
 
-</html>
+
+  </body>
+
+  </html>
