@@ -68,7 +68,7 @@
                 <ul class="nav navbar-nav">
                     <li><a href="#abstract">Abstract</a></li>
                     <li><a href="#dp">Design Problems</a></li>
-                    <li><a href="agglomerations">Categories of Agglomerations</a></li>
+                    <li><a href="#agglomerations">Categories of Agglomerations</a></li>
                     <li><a href="#selection">Participant Selection</a></li>
                     <li></li>
                 <!--    <li><a href="#procedures">Procedures on Communicability Evaluation</a></li> -->
@@ -230,9 +230,65 @@
 
         <p class="text-justify">
            Code smells are recurring micro structures in the source code that may indicate the manifestation of design
-            problems <a href="#fowler">(Fowler, 1999)</a>.
+            problems <a href="#fowler">(Fowler, 1999)</a>. Below in Table II we present the defitions of some code smells
+            used in our work.
         </p>
 
+        <style type="text/css">
+            .tg  {border-collapse:collapse;border-spacing:0;}
+            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+            .tg .tg-0ywr{font-weight:bold;background-color:#67fd9a;color:#333333}
+            .tg .tg-yzt1{background-color:#efefef;vertical-align:top}
+            .tg .tg-bsv2{background-color:#efefef}
+        </style>
+        <table class="tg" align="center">
+            <caption>
+                Table II. Code Smells Definitions
+            </caption>
+            <tr>
+                <th class="tg-0ywr">Type</th>
+                <th class="tg-0ywr">Description</th>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">God Class</td>
+                <td class="tg-bsv2">Long and complex class that centralized the intelligence of the system</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Brain Method</td>
+                <td class="tg-bsv2">Long and complex method that centralizes the intelligence of a class</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Data Class</td>
+                <td class="tg-bsv2">Class that contains data but not behavior related to the data</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Disperse Coupling</td>
+                <td class="tg-bsv2">The case of an operation which is excessively tied to many other operations in the system, <br>and additionally these provider methods that are dispersed among many classes</td>
+            </tr>
+            <tr>
+                <td class="tg-bsv2">Feature Envy</td>
+                <td class="tg-bsv2">Method that calls more methods of a single external class than the internal methods of its own inner class</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Intensive Coupling</td>
+                <td class="tg-yzt1">When a method is tied to many other operations in the system, whereby these provider operations are dispersed only into one or a few classes</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Refused Parent Bequest</td>
+                <td class="tg-yzt1">Subclass that does not use the protected methods of its superclass</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Shotgun Surgery</td>
+                <td class="tg-yzt1">This anomaly is evident when you must change lots of pieces of code in different places simply to add a new extended piece of behavior</td>
+            </tr>
+            <tr>
+                <td class="tg-yzt1">Tradition Breaker</td>
+                <td class="tg-yzt1">Subclass that provides a large set of services that are unrelated to services provided by the superclass</td>
+            </tr>
+        </table>
+
+        <br>
         <p class="text-justify">
            A code smell agglomeration is a group of inter-related code smells that may indicate the full extension of
             a design problem <a href="#oizumi">(Oizumi, 2016)</a>. The relations among code smells are determined by the relationships that exists between
@@ -250,7 +306,7 @@
         </style>
         <table class="tg" align="center">
             <caption>
-                Table II. Agglomeration Categories Definitions
+                Table III. Agglomeration Categories Definitions
             </caption>
             <tr>
                 <th class="tg-kqkn">Category</th>
@@ -280,7 +336,7 @@
 
         <h3 class="page-header" id="selection">Participant Selection</h3>
         <p class="text-justify">
-        We needed participants that met the requirements described in Table III.
+        We needed participants that met the requirements described in Table IV.
             We selected developers to identify design problems by sending a characterization
             questionnaire for a group of developers of our network.
             Their answers were analyzed to determine which of them were eligible to participate
@@ -314,7 +370,7 @@
 
         <table class="tg" align="center">
             <caption>
-            Table III. Knowledge classification
+            Table IV. Knowledge classification
             </caption>
                 <tr>
                     <th class="tg-be9c">Classification</th>
@@ -719,7 +775,7 @@
 
         <table class="tg">
             <caption>
-                Table IV. Link to download the artifacts used in the study
+                Table V. Link to download the artifacts used in the study
             </caption>
             <tr>
                 <th class="tg-be9c">Artifact</th>
