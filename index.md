@@ -6,7 +6,7 @@ tagline:
 
 ## About Willian
 
-He is lecturer at IFPR (Federal Institute of Parana). In 2015, he obtained a master's degree in Informatics from the Pontifical Catholic University of Rio de Janeiro (PUC-RIO). He also holds a bachelor's degree in Informatics from the Maringa State University (UEM). He worked in research, development and consultancy projects in the Software Engineering Laboratory at PUC-RIO. He worked as software developer at HSBC GLT, Objective Solutions, and Cwork Sistemas.
+He is professor at IFPR and PhD student at PUC-Rio. Willian obtained a master's degree in Informatics from PUC-Rio. He also holds a bachelor's degree in Informatics from UEM. He worked in research, development and consultancy projects in the Software Engineering Laboratory at PUC-Rio. He also worked as software developer at HSBC GLT, Objective Solutions, and Cwork Sistemas.
 
 ## Education
 
@@ -19,7 +19,7 @@ He is lecturer at IFPR (Federal Institute of Parana). In 2015, he obtained a mas
 ## Experience
 
 <ul class="experience">
-  <li>Lecturer at IFPR - 02/2016 - Currently</li>
+  <li>Professor at IFPR - 02/2016 - Currently</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
   <li>Software Developer at Objective Solutions – 05/2012 – 01/2013</li>
@@ -29,6 +29,9 @@ He is lecturer at IFPR (Federal Institute of Parana). In 2015, he obtained a mas
 ## Awards
 
 <ul class="awards">
+  <li>Distinguished Paper Award - 40th International Conference on Software Engineering, IEEE/ACM - 2018</li>
+  <li>2nd Best Paper of SBCARS - CBSoft - 2017</li>
+  <li>Best Paper of SBCARS - CBSoft - 2016</li>
   <li>3rd Best MSc Dissertation - Sociedade Brasileira de Computação (SBC) - 2016</li>
   <li>Java Assessment Topper - HSBC Global Technology - 2015</li>
   <li>3rd Best Paper of SBES - CBSoft - 2014</li>
@@ -40,9 +43,10 @@ He is lecturer at IFPR (Federal Institute of Parana). In 2015, he obtained a mas
 
 Links below contain information about my publications:
 
-<ul class="awards">
+<ul class="publications">
 	<li><a href="https://scholar.google.com.br/citations?user=8Kkur44AAAAJ&hl=pt-BR&oi=sra">Google Scholar</a></li>
 	<li><a href="http://dblp.uni-trier.de/pers/hd/o/Oizumi:Willian_Nalepa">DBLP</a></li>
+	<li><a href="https://academic.microsoft.com/#/profile/woizumi">Microsoft Academic</a></li>
 </ul>
 
 ## Research Topics
@@ -51,6 +55,7 @@ Links below contain information about my publications:
   <li>Software Architecture</li>
   <li>Source Code Design</li>
   <li>Code Smells</li>
+  <li>Design Problems</li>
 </ul>
 
 ## Talks
