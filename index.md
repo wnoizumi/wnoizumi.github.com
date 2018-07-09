@@ -29,10 +29,10 @@ He is professor at IFPR and PhD student at PUC-Rio. Willian obtained a master's 
 ## Awards
 
 <ul class="awards">
-  <li>Distinguished Paper Award - 40th International Conference on Software Engineering, IEEE/ACM - 2018</li>
+  <li><strong>Distinguished Paper Award - 40th International Conference on Software Engineering, IEEE/ACM - 2018</strong></li>
   <li>2nd Best Paper of SBCARS - CBSoft - 2017</li>
   <li>Best Paper of SBCARS - CBSoft - 2016</li>
-  <li>3rd Best MSc Dissertation - Sociedade Brasileira de Computação (SBC) - 2016</li>
+  <li><strong>3rd Best MSc Dissertation - Sociedade Brasileira de Computação (SBC) - 2016</strong></li>
   <li>Java Assessment Topper - HSBC Global Technology - 2015</li>
   <li>3rd Best Paper of SBES - CBSoft - 2014</li>
   <li>Best Paper of WMOD - CBSoft - 2014</li>
