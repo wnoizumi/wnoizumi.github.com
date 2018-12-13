@@ -46,7 +46,7 @@ Links below contain information about my publications:
 <ul class="publications">
 	<li><a href="https://scholar.google.com.br/citations?user=8Kkur44AAAAJ&hl=pt-BR&oi=sra">Google Scholar</a></li>
 	<li><a href="http://dblp.uni-trier.de/pers/hd/o/Oizumi:Willian_Nalepa">DBLP</a></li>
-	<li><a href="https://academic.microsoft.com/#/profile/woizumi">Microsoft Academic</a></li>
+	<li><a href="https://academic.microsoft.com/#/profile/willianoizumi">Microsoft Academic</a></li>
 </ul>
 
 ## Academic Service
