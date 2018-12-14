@@ -70,6 +70,7 @@ Links below contain information about my publications:
 ## Research Topics
 
 <ul class="research">
+  <li>Technical Debt</li>
   <li>Software Architecture</li>
   <li>Source Code Design</li>
   <li>Code Smells</li>
