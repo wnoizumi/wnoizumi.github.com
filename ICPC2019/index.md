@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Removal of design problems through refactorings: are we looking at the right symptoms?
+title: ICPC - Negative Results Track 2019
 tagline:
 ---
+# Removal of design problems through refactorings: are we looking at the right symptoms?
 Authors: André Eposhi, Willian Oizumi, Alessandro Garcia, Leonardo Sousa, Anderson Oliveira, Roberto Oliveira
 
 ## Abstract
