@@ -29,7 +29,33 @@ Will be available soon.
 
 ### Target Systems
 
-Will be available soon.
+<table>
+  <tr>
+    <th>Project</th>
+    <th>Architectural Style</th>
+    <th>Domain</th>
+    <th>Size (KLOC)</th>
+    <th># of Commits</th>
+  </tr>
+  <tr>
+    <td><a href="https://sourceforge.net/projects/openposbr/">OpenPOS</a></td>
+    <td>Layers</td>
+    <td>Sales</td>
+    <td>97</td>
+    <td>3318</td>
+  </tr>
+  <tr>
+    <td><a href="https://sourceforge.net/projects/uninfe/">UniNFe</a></td>
+    <td>Layers</td>
+    <td>Invoice</td>
+    <td>492</td>
+    <td>2373</td>
+  </tr>
+  <tr>
+    <td colspan="5">KLOC = Kilo Lines of Code</td>
+  </tr>
+</table>
+
 
 ### Detailed List of Refactoring Tasks
 
