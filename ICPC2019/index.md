@@ -19,11 +19,27 @@ The paper is available for download in the following link:
 
 ## Replication Package
 
-<ul class="replication">
-  <li>Definitions</li>
-  <li>Details About Symptom Types (description, detection strategies, and thresholds)</li>
-  <li>Target Systems</li>
-  <li>Detailed List of Refactoring Tasks</li>
-  <li>Collected Symptoms</li>
-  <li>Statistical Tests</li>
+### Definitions
+
+Will be available soon.
+
+### Details About Symptom Types (description, detection strategies, and thresholds)
+
+Will be available soon.
+
+### Target Systems
+
+Will be available soon.
+
+### Detailed List of Refactoring Tasks
+
+Will be available soon.
+
+### Raw Data
+
+<ul class="raw-data">
+  <li><a href="http://wnoizumi.github.io/ICPC2019/replication/symptoms-openpos.zip">Collected Symptoms - OpenPOS</a></li>
+  <li><a href="http://wnoizumi.github.io/ICPC2019/replication/symptoms-uninfe.zip">Collected Symptoms - UniNFe</a></li>
+  <li><a href="http://wnoizumi.github.io/ICPC2019/replication/stats-openpos.txt">Statistics - OpenPOS</a></li>
+  <li><a href="http://wnoizumi.github.io/ICPC2019/replication/stats-uninfe.txt">Statistics - UniNFe</a></li>  
 </ul>
