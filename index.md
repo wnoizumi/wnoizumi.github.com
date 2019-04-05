@@ -52,6 +52,7 @@ Links below contain information about my publications:
 ## Academic Service
 
 <ul class="service">
+	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">Technical Program Committee Member for CBSoft 2019 - WTDSOFT</a></li>
 	<li><a href="http://48jaiio.sadio.org.ar/">Program Committee Member of the Argentine Symposium on Software Engineering - ASSE 2019</a></li>
 	<li><a href="http://periodicos.ifpr.edu.br/index.php?journal=MundiETG&page=about&op=editorialPolicies#sectionPolicies">Co-Guest Editor of Mundi ETG Thematic Issue on Information Technology</a></li>
 	<li><a href="http://periodicos.ifpr.edu.br/index.php?journal=MundiETG&page=issue&op=view&path%5B%5D=25">Guest Editor of Mundi ETG Special Issue for SETIF 2017</a></li>
