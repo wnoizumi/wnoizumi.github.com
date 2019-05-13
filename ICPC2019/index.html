@@ -161,16 +161,22 @@ developers tend to combine multiple symptoms, considering dimensions such as div
 		
 		<h4 class="page-header" id="symptomtypes">Details About Symptom Types</h3>
 		
-		<strong>Incidence of Code Smells</strong>
+		<strong>Code Smells</strong>
         <p class="text-justify">
            Code smells are surface indicators of possible design problems [9]. This type of smell have been extensively investigated by different researchers (e.g. [11], [24]–[26]). Recent studies [16], [17], [21], [23] suggest that combining multiple code smells may improve the precision when identifying design problems. An example of code smell type is the God Class. This type of smell is used to identify classes that are long and excessively complex.
+		   We used a set of 11 categories of code smells, which are the following: Long Method, Complex Method, Long Parameter List, Long Identifier, Long Statement, Complex Conditional, Virtual Method Call from Constructor, Empty Catch Block, Magic Number, Duplicate Code, and Missing Default.
         </p>
 		
 		<br/>
 		<strong>Principle Violations</strong>
         <p class="text-justify">
            In object-oriented systems, design problems usually impact object-oriented design characteristics, such as abstraction, encapsulation, modularity, and hierarchy. Therefore, the second symptom type we used is the principle violation. Principle violations are symptoms that may indicate the violation of object-oriented principles [12]. An example of object-oriented principle is the Single Responsibility Principle, which determines that each class should have a single responsibility in the system [12].
+		   We detected 18 categories of principle violations: Imperative Abstraction, Unnecessary Abstraction, Multifaceted Abstraction, Unutilized Abstraction, Duplicate Abstraction, Deficient Encapsulation, Unexploited Encapsulation, Broken Modularization, Insufficient Modularization, Hublike Modularization, Cyclically-dependent Modularization, Wide Hierarchy, Deep Hierarchy, Multipath Hierarchy, Cyclic Hierarchy, Rebellious Hierarchy, Unfactored Hierarchy, and Missing Hierarchy.
         </p>
+		
+		<p class="text-justify">
+		A complete description of the Code Smells and Principle Violations used in this work is available at the <a href="http://tusharma.in/smells/index.html">Taxonomy of Software Smells</a> website.
+		</p>
 		
 		<br/>
 		<strong>Violation of Quality Requirements</strong>
