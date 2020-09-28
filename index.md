@@ -6,7 +6,7 @@ tagline:
 
 ## About Willian
 
-Willian is a PhD student at PUC-Rio. He obtained a master's degree in Computer Science from PUC-Rio. He also holds a bachelor's degree in Computer Science from UEM. He conducts his research in the Software Engineering Laboratory at PUC-Rio. In parallel to the PhD course, WIllian works as a teacher at Federal Institute of Parana (IFPR). He also have experience as a software developer, having worked in companies such as HSBC Global Technology and Objective Solutions.
+Willian is a PhD student at PUC-Rio. He obtained a master's degree in Computer Science from PUC-Rio. He also holds a bachelor's degree in Computer Science from UEM. He conducts his research in the <a href="https://sites.google.com/view/opus-group/">Opus Research Group</a> at PUC-Rio. In parallel to the PhD course, WIllian works as a teacher at Federal Institute of Parana (IFPR). He also have experience as a software developer, having worked in companies such as HSBC Global Technology and Objective Solutions.
 
 ## Education
 
