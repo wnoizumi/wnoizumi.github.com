@@ -29,6 +29,7 @@ Willian is a PhD student at PUC-Rio. He obtained a master's degree in Computer S
 ## Awards
 
 <ul class="awards">
+  <li>Distinguished Paper Award - SBES Research Track - 2020</li>
   <li>Best Paper of SBCARS - CBSoft - 2019</li>
   <li><strong>Distinguished Paper Award - 40th International Conference on Software Engineering, IEEE/ACM - 2018</strong></li>
   <li>2nd Best Paper of SBCARS - CBSoft - 2017</li>
