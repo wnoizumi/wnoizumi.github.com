@@ -6,12 +6,16 @@ tagline:
 
 ## About Willian
 
-Willian is a PhD student at PUC-Rio. He obtained a master's degree in Computer Science from PUC-Rio. He also holds a bachelor's degree in Computer Science from UEM. He conducts his research in the <a href="https://sites.google.com/view/opus-group/">Opus Research Group</a> at PUC-Rio. In parallel to the PhD course, WIllian works as a teacher at Federal Institute of Parana (IFPR). He also have experience as a software developer, having worked in companies such as HSBC Global Technology and Objective Solutions.
+Willian is a PhD candidate at PUC-Rio. He obtained a master's degree in Computer Science from PUC-Rio. He also holds a bachelor's degree in Computer Science from UEM. He conducts his research in the <a href="https://sites.google.com/view/opus-group/">Opus Research Group</a> at PUC-Rio. In parallel to the PhD course, WIllian works as a Teaching-track Faculty at Federal Institute of Parana (IFPR). He also have experience as a software developer, having worked in companies such as HSBC Global Technology and Objective Solutions.
+
+### Open to Job Opportunities
+
+I am currently open to job opportunities in North America or Europe, preferably starting in March 2022 or September 2021. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
 
 ## Education
 
 <ul class="education">
-  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – PhD in Informatics – started in 2017. Advisor: Alessandro Garcia.</li>
+  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – PhD in Informatics – 2017 to June/2021 (expected). Advisor: Alessandro Garcia.</li>
   <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – MSc in Informatics – 2013 to 2015. Advisor: Alessandro Garcia.</li>
   <li>Maringa State University – UEM – BS in Informatics – 2008 to 2012. Advisors: Sandra Ferrari and Thelma Colanzi.</li>
 </ul>
@@ -19,7 +23,7 @@ Willian is a PhD student at PUC-Rio. He obtained a master's degree in Computer S
 ## Experience
 
 <ul class="experience">
-  <li>Teacher at IFPR - 02/2016 - Currently</li>
+  <li>Teaching-track Faculty at IFPR - 02/2016 - Currently</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
   <li>Software Developer at Objective Solutions – 05/2012 – 01/2013</li>
