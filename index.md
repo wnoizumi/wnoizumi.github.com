@@ -10,7 +10,7 @@ Willian is a PhD candidate at PUC-Rio. He obtained a master's degree in Computer
 
 ### Open to Job Opportunities
 
-I am currently open to job opportunities in North America or Europe, preferably starting in March 2022 or September 2021. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
+I am currently open to job opportunities in North America or Europe, preferably starting in the beginning of 2022 or in September 2021. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
 
 ## Education
 
@@ -58,6 +58,7 @@ Links below contain information about my publications:
 ## Academic Service
 
 <ul class="service">
+	<li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc">Shadow PC Member for MSR 2021</a></li>
 	<li><a href="http://sbqs.sbc.org.br/index.php/pt/chamada-de-trabalho/trabalhos-tecnicos">Technical Program Committee Member for SBQS 2020 - Research Track</a></li>
 	<li><a href="http://cbsoft2020.imd.ufrn.br/wtdsoft.php">Technical Program Committee Member for CBSoft 2020 - WTDSOFT</a></li>
 	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">Technical Program Committee Member for CBSoft 2019 - WTDSOFT</a></li>
