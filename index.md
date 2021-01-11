@@ -58,13 +58,13 @@ Links below contain information about my publications:
 ## Academic Service
 
 <ul class="service">
-	<li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc">Shadow PC Member for MSR 2021</a></li>
-	<li><a href="http://sbqs.sbc.org.br/index.php/pt/chamada-de-trabalho/trabalhos-tecnicos">Technical Program Committee Member for SBQS 2020 - Research Track</a></li>
-	<li><a href="http://cbsoft2020.imd.ufrn.br/wtdsoft.php">Technical Program Committee Member for CBSoft 2020 - WTDSOFT</a></li>
-	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">Technical Program Committee Member for CBSoft 2019 - WTDSOFT</a></li>
-	<li><a href="http://48jaiio.sadio.org.ar/">Program Committee Member of the Argentine Symposium on Software Engineering - ASSE 2019</a></li>	
-	<li><a href="http://vissoft16.ysu.edu/committee.html">Artifact Evaluation Committee Member of the IEEE VISSOFT 2016</a></li>
-	<li><a href="http://cbsoft.org/cbsoft2016/anais">Proceedings Co-Chair of CBSoft 2016</a></li>
+	<li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc">Shadow PC Member - MSR 2021</a></li>
+	<li><a href="http://sbqs.sbc.org.br/index.php/pt/chamada-de-trabalho/trabalhos-tecnicos">Technical Program Committee Member - SBQS 2020 - Research Track</a></li>
+	<li><a href="http://cbsoft2020.imd.ufrn.br/wtdsoft.php">Technical Program Committee Member - CBSoft 2020 - WTDSOFT</a></li>
+	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">Technical Program Committee Member - CBSoft 2019 - WTDSOFT</a></li>
+	<li><a href="http://48jaiio.sadio.org.ar/">Program Committee Member - Argentine Symposium on Software Engineering (ASSE) 2019</a></li>	
+	<li><a href="http://vissoft16.ysu.edu/committee.html">Artifact Evaluation Committee Member - IEEE VISSOFT 2016</a></li>
+	<li><a href="http://cbsoft.org/cbsoft2016/anais">Proceedings Co-Chair - CBSoft 2016</a></li>
 </ul>
 
 
