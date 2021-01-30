@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="Towards a Smell-Based Approach for Architectural Refactoring">
+    <meta name="author" content="Willian Oizumi">
+
+    <title>Towards a Smell-Based Approach for Architectural Refactoring</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="grid.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="design.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <link rel="stylesheet" href="bower_components/highlightjs/styles/xcode.css">
+    <script src="bower_components/highlightjs/highlight.pack.min.js"></script>
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+
+    <style type="text/css">
+        pre {
+            border: none;
+            background: #ffffff;
+            padding: 0px;
+        }
+        
+        .col-md-6 {
+            background: #ffffff;
+            border: none;
+            padding-bottom: 0px;
+        }
+        
+        body {
+            padding-top: 70px;
+            position: relative;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('body').scrollspy({
+                target: '#mainNavBar'
+            })
+        });
+    </script>
+</head>
+
+<body>
+    <nav id="mainNavBar" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-6">
+                <ul class="nav navbar-nav">
+                    <li><a href="#abstract">Abstract</a></li>
+                    <li><a href="#fulltext">Full Text</a></li>
+                    <li><a href="#replicationpackage">Replication Package</a></li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+    </nav>
+
+
+    <div class="container"  align="center">
+        <img src="figures/puc.png" alt="PUC-Rio">
+		<img src="figures/logoopus.png" alt="Opus Research Group">
+    </div>
+
+    <div class="container">
+
+        <div class="page-header" id="title" align="center">
+            <h1>Towards a Smell-Based Approach for Architectural Refactoring</h1>
+            <br/>
+        </div>
+
+        This web page presents the supplementary material of the paper <i>Towards a Smell-Based Approach for Architectural Refactoring</i>. <br>
+        
+
+        <br>
+        Authors: Willian Oizumi, Leonardo Sousa, Anderson Oliveira, Alessandro Garcia, Diego Cedrim, Carlos Lucena
+
+        <br><br>
+        Following sections present the complementary information regarding the paper.
+
+        <h3 class="page-header" id="abstract">Abstract</h3>
+
+        <p class="text-justify">
+            Design degradation occurs as a result of design decisions that neg-atively impact non-functional requirements, such as modifiability and extensibility.  Architectural  problems  are  specific  forms  of  degradation  that  affect multiple code elements relevant to software architecture. Architectural problems must be identified and removed to avoid architecture decay. Otherwise, the software may suffer negative consequences, such as massive restructuring and increased maintenance costs. Code smells are symptoms of design degradation. However, little is known on when and what types of smells indicate an architectural problem that needs to be removed from the system. In this work, we conducted a multi-case study to investigate (1) when smells are indicators of architectural refactoring opportunities, and (2) what smell patterns indicate  the  existence  of  architectural  problems.  As  a  result,  we  identified smell  patterns,  which  are  different  sets  of  one  or  multiple  smell  types  that are associated with architectural problems. A pattern indicates not only the type  of  architectural  problem  but  also  the  refactorings  to  remove  it.  Based on them, we developed an automated approach to find architectural refactoring opportunities. To evaluate its usefulness, we conducted a quasi-experiment with professional developers. We found that smell patterns have the potential to indicate refactoring opportunities for architectural problems such as Concern Overload, Scattered Concern, and Fat Interface. Our results also indicate that God  Class and Complex Class are highly relevant smells for identifying and refactoring architectural problems. Finally, we identified factors that influence the developers’ decision in classifying code elements as being affected by architectural problems. </p>
+
+    </div>
+    <!-- /container -->
+
+    <div class="container">
+
+        <h3 class="page-header" id="fulltext">Full Text</h3>
+
+        <p class="text-justify">
+            The paper is available for download in the following link:
+
+			<a href="http://wnoizumi.github.io/EMSE2021/paper.pdf">[Download]</a>
+        </p>        
+    </div>
+
+    <div class="container">
+
+        <h3 class="page-header" id="replicationpackage">Replication Package</h3>
+
+	<ul class="raw-data">
+	  <li><a href="https://figshare.com/s/3ac0da284f700d186dfa">Multi-case Study</a></li>
+	  <li><a href="http://wnoizumi.github.io/EMSE2021/quasi-experiment.zip">Quasi-experiment</a></li>  
+	</ul>
+
+        
+    </div>
+
+</body>
+
+</html>
