@@ -4,13 +4,13 @@ title: Willian Oizumi
 tagline:
 ---
 
-## About Willian
+## About Me
 
-Willian is a PhD candidate at PUC-Rio. He obtained a master's degree in Computer Science from PUC-Rio. He also holds a bachelor's degree in Computer Science from UEM. He conducts his research in the <a href="https://sites.google.com/view/opus-group/">Opus Research Group</a> at PUC-Rio. In parallel to the PhD course, WIllian works as a Teaching-track Faculty at Federal Institute of Parana (IFPR). He also have experience as a software developer, having worked in companies such as HSBC Global Technology and Objective Solutions.
+I completed a MSc degree in Computer Science at the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) in September 2015. I have more than six years of professional experience with software development. Currently, I am a Teaching Faculty at the Federal Institute of Parana (IFPR) and a Ph.D. Candidate at the PUC-Rio – expecting to graduate by June 2021. My research is on the Software Engineering field, with a focus on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-based Software Engineering. In my Ph.D. research, I am working on a technique to assist developers in the identification and removal of design problems, which occur when quality attributes are negatively impacted. During my MSc and Ph.D. I had the opportunity to publish papers in prestigious conferences and journals, such as ICSE (2016, 2018), MSR (2020), IST (2020), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). In 2016, my MSc research was awarded as the third best computer science dissertation of the Brazilian Contest of Theses and Dissertations.
 
 ### Open to Job Opportunities
 
-I am currently open to job opportunities in North America or Europe, preferably starting in the beginning of 2022 or in September 2021. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
+I am currently open to job opportunities in Europe, US, or Canada, preferably starting in the beginning of 2022 or in September 2021. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
 
 ## Education
 
