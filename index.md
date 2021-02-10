@@ -10,7 +10,7 @@ I completed a MSc degree in Computer Science at the Pontifical Catholic Universi
 
 ### Open to Job Opportunities
 
-I am currently open to job opportunities in Europe, US, or Canada, preferably starting in the beginning of 2022 or in September 2021. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
+I am currently open to job opportunities in Europe, US, or Canada, preferably starting in the beginning of 2022. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
 
 ## Education
 
@@ -55,7 +55,7 @@ Links below contain information about my publications:
 	<li><a href="https://academic.microsoft.com/#/profile/willianoizumi">Microsoft Academic</a></li>
 </ul>
 
-## Academic Service
+## Academic Service in Events
 
 <ul class="service">
 	<li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc">Shadow PC Member - MSR 2021</a></li>
@@ -67,10 +67,18 @@ Links below contain information about my publications:
 	<li><a href="http://cbsoft.org/cbsoft2016/anais">Proceedings Co-Chair - CBSoft 2016</a></li>
 </ul>
 
+## Journal Reviews
+
+<ul class="reviews">
+	<li>Software: Practice and Experience (2021-2021)</li>
+	<li>IET Software (2019-2020)</li>
+	<li>Revista Mundi ETG (2017-2018)</li>
+</ul>
 
 ## Talks
 
 <ul class="talks">
+  <li>Qualitative Analysis - Exploring Data to Create Theories [<a href="http://wnoizumi.github.io/talks/qualitative-analysis.pdf">Presentation</a>]</li>
   <li>(In portuguese only) Qualidade de Softawre: Por que devo me importar? - Sistemática 2018 - UEG Campus Posse [<a href="https://drive.google.com/open?id=1bNXGoO7DRoz1DW1OWhLvbCE7E_AJxm4l">Materiais</a>]</li>
 </ul>
 
