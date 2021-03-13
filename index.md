@@ -58,6 +58,7 @@ Links below contain information about my publications:
 ## Academic Service in Events
 
 <ul class="service">
+	<li><a href="http://www.ieee-scam.org/2021/#home">Technical Program Committee Member - SCAM 2021</a></li>
 	<li><a href="https://conf.researchr.org/track/issta-2021/issta-2021-artifact-evaluation#Call-for-Artifacts">Artifact Evaluation Committee (AEC) Member - ISSTA 2021</a></li>
 	<li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc">Shadow PC Member - MSR 2021</a></li>
 	<li><a href="http://sbqs.sbc.org.br/index.php/pt/chamada-de-trabalho/trabalhos-tecnicos">Technical Program Committee Member - SBQS 2020 - Research Track</a></li>
