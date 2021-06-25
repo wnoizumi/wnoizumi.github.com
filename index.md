@@ -10,7 +10,7 @@ I completed a MSc degree in Computer Science at the Pontifical Catholic Universi
 
 ### Open to Job Opportunities
 
-I am currently open to job opportunities in Europe, US, or Canada, preferably starting in the beginning of 2022. I'm interested in Faculty, Teaching-focused, and Postdoc positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
+I am currently open to job opportunities in Europe, US, or Canada. I'm open to faculty, teaching-focused, postdoc, and software development positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
 
 ## Education
 
@@ -58,15 +58,16 @@ Links below contain information about my publications:
 ## Academic Service in Events
 
 <ul class="service">
+	<li><a href="http://cbsoft2021.joinville.udesc.br/wtdsoft.php">Technical Program Committee Member - WTDSOFT 2021</a></li>
 	<li><a href="http://sbqs.sbc.org.br/2021/index.php/en-us/chamada-de-trabalho-2/trabalhos-tecnicos-e-relatos-de-experiencia">Technical Program Committee Member - SBQS 2021</a></li>
 	<li><a href="http://www.ieee-scam.org/2021/#home">Technical Program Committee Member - SCAM 2021</a></li>
 	<li><a href="https://conf.researchr.org/track/issta-2021/issta-2021-artifact-evaluation#Call-for-Artifacts">Artifact Evaluation Committee (AEC) Member - ISSTA 2021</a></li>
 	<li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc">Shadow PC Member - MSR 2021</a></li>
 	<li><a href="http://sbqs.sbc.org.br/index.php/pt/chamada-de-trabalho/trabalhos-tecnicos">Technical Program Committee Member - SBQS 2020 - Research Track</a></li>
-	<li><a href="http://cbsoft2020.imd.ufrn.br/wtdsoft.php">Technical Program Committee Member - CBSoft 2020 - WTDSOFT</a></li>
-	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">Technical Program Committee Member - CBSoft 2019 - WTDSOFT</a></li>
+	<li><a href="http://cbsoft2020.imd.ufrn.br/wtdsoft.php">Technical Program Committee Member - WTDSOFT 2020</a></li>
+	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">Technical Program Committee Member - WTDSOFT 2019</a></li>
 	<li><a href="http://48jaiio.sadio.org.ar/">Program Committee Member - Argentine Symposium on Software Engineering (ASSE) 2019</a></li>	
-	<li><a href="http://vissoft16.ysu.edu/committee.html">Artifact Evaluation Committee Member - IEEE VISSOFT 2016</a></li>
+	<li><a href="http://vissoft16.ysu.edu/committee.html">Artifact Evaluation Committee Member - VISSOFT 2016</a></li>
 	<li><a href="http://cbsoft.org/cbsoft2016/anais">Proceedings Co-Chair - CBSoft 2016</a></li>
 </ul>
 
