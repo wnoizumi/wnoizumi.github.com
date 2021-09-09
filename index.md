@@ -58,6 +58,7 @@ Links below contain information about my publications:
 ## Academic Service in Events
 
 <ul class="service">
+	<li><a href="https://conf.researchr.org/track/msr-2022/msr-2022-mining-challenge#Call-for-Mining-Challenge-Papers">Committee Member - MSR Mining Challenge Track 2022</a></li>
 	<li><a href="http://cbsoft2021.joinville.udesc.br/wtdsoft.php">Technical Program Committee Member - WTDSOFT 2021</a></li>
 	<li><a href="http://sbqs.sbc.org.br/2021/index.php/en-us/chamada-de-trabalho-2/trabalhos-tecnicos-e-relatos-de-experiencia">Technical Program Committee Member - SBQS 2021</a></li>
 	<li><a href="http://www.ieee-scam.org/2021/#home">Technical Program Committee Member - SCAM 2021</a></li>
