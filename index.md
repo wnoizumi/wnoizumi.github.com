@@ -6,16 +6,17 @@ tagline:
 
 ## About Me
 
-I completed a MSc degree in Computer Science at the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) in September 2015. I have more than six years of professional experience with software development. Currently, I am a Teaching Faculty at the Federal Institute of Parana (IFPR) and a Ph.D. Candidate at the PUC-Rio – expecting to graduate by June 2021. My research is on the Software Engineering field, with a focus on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-based Software Engineering. In my Ph.D. research, I am working on a technique to assist developers in the identification and removal of design problems, which occur when quality attributes are negatively impacted. During my MSc and Ph.D. I had the opportunity to publish papers in prestigious conferences and journals, such as ICSE (2016, 2018), MSR (2020), IST (2020), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). In 2016, my MSc research was awarded as the third best computer science dissertation of the Brazilian Contest of Theses and Dissertations.
+I am a teaching faculty at IFPR and a PhD student at PUC-Rio. I have a master's degree in Computer Science from the Pontifical Catholic University of Rio de Janeiro (PUC-RIO) and a bachelor degree in Computer Science from the State University of Maringá (UEM). I have over 12 years of software development experience, 6 of which were dedicated to teaching. I worked on research, development and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I also worked as a developer at HSBC GLT, Objective Solutions and Cwork Sistemas. Most of my software development experience is with Java back-end development, using technologies like Java EE, JUnit and Oracle DB. I also have experience with full stack development (Spring Boot and Thymeleaf). Finally, I'm currently studying and developing front-end and mobile projects with React and Flutter. As an academic, I conduct research in the field of Software Engineering, focusing on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-Based Software Engineering. In my PhD, I am working on a technique to assist developers in identifying and removing design problems that occur when quality attributes are negatively impacted.
+During my MSc and Ph.D. I had the opportunity to publish papers in prestigious conferences and journals, such as ICSE (2016, 2018), MSR (2020), IST (2020), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). In 2016, my MSc research was awarded as the third best computer science dissertation of the Brazilian Contest of Theses and Dissertations.
 
-### Open to Job Opportunities
+### Open to Remote Job Opportunities
 
-I am currently open to job opportunities in Europe, US, or Canada. I'm open to faculty, teaching-focused, postdoc, and software development positions. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
+I am currently open to remote software development or research opportunities. My CV is available <a href="http://wnoizumi.github.io/CV-Willian.pdf">here</a>.
 
 ## Education
 
 <ul class="education">
-  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – PhD in Informatics – 2017 to June/2021 (expected). Advisor: Alessandro Garcia.</li>
+  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – PhD in Informatics – 2017 to Feb/2022 (expected). Advisor: Alessandro Garcia.</li>
   <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – MSc in Informatics – 2013 to 2015. Advisor: Alessandro Garcia.</li>
   <li>Maringa State University – UEM – BS in Informatics – 2008 to 2012. Advisors: Sandra Ferrari and Thelma Colanzi.</li>
 </ul>
@@ -23,7 +24,7 @@ I am currently open to job opportunities in Europe, US, or Canada. I'm open to f
 ## Experience
 
 <ul class="experience">
-  <li>Teaching-track Faculty at IFPR - 02/2016 - Currently</li>
+  <li>Teaching Faculty at IFPR - 02/2016 - Currently</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
   <li>Software Developer at Objective Solutions – 05/2012 – 01/2013</li>
