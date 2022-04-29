@@ -6,7 +6,7 @@ tagline:
 
 ## About Me
 
-I am a teaching faculty at IFPR and a PhD student at PUC-Rio. I have a master's degree in Computer Science from the Pontifical Catholic University of Rio de Janeiro (PUC-RIO) and a bachelor degree in Computer Science from the State University of Maringá (UEM). I have over 12 years of software development experience, 6 of which were dedicated to teaching. I worked on research, development and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I also worked as a developer at HSBC GLT, Objective Solutions and Cwork Sistemas. Most of my software development experience is with Java back-end development, using technologies like Java EE, JUnit and Oracle DB. I also have experience with full stack development (Spring Boot and Thymeleaf). Finally, I'm currently studying and developing front-end and mobile projects with React and Flutter. As an academic, I conduct research in the field of Software Engineering, focusing on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-Based Software Engineering. In my PhD, I am working on a technique to assist developers in identifying and removing design problems that occur when quality attributes are negatively impacted.
+I am currently working as a software developer at GoTo. I have a PhD degree in Computer Science from the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) and a bachelor degree in Computer Science from the State University of Maringá (UEM). I have over 12 years of software development experience, 6 of which were dedicated to teaching at IFPR. I worked on research, development and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I also worked as a developer at HSBC GLT, Objective Solutions and Cwork Sistemas. Most of my software development experience is with Java back-end development, using technologies like Java EE, JUnit and Oracle DB. I also have experience with full stack development (Spring Boot and Thymeleaf). Finally, I'm currently studying and developing front-end and mobile projects with React and Flutter. As an academic, I conduct research in the field of Software Engineering, focusing on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-Based Software Engineering. In my PhD, I am working on a technique to assist developers in identifying and removing design problems that occur when quality attributes are negatively impacted.
 During my MSc and Ph.D. I had the opportunity to publish papers in prestigious conferences and journals, such as ICSE (2016, 2018), MSR (2020), IST (2020), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). In 2016, my MSc research was awarded as the third best computer science dissertation of the Brazilian Contest of Theses and Dissertations.
 
 ### Open to Remote Job Opportunities
@@ -16,7 +16,7 @@ I am currently open to remote software development or research opportunities. My
 ## Education
 
 <ul class="education">
-  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – PhD in Informatics – 2017 to Feb/2022 (expected). Advisor: Alessandro Garcia.</li>
+  <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – PhD in Informatics – 2017 to 2022. Advisor: Alessandro Garcia.</li>
   <li>Pontifical Catholic University of Rio de Janeiro – PUC-RIO – MSc in Informatics – 2013 to 2015. Advisor: Alessandro Garcia.</li>
   <li>Maringa State University – UEM – BS in Informatics – 2008 to 2012. Advisors: Sandra Ferrari and Thelma Colanzi.</li>
 </ul>
@@ -24,7 +24,8 @@ I am currently open to remote software development or research opportunities. My
 ## Experience
 
 <ul class="experience">
-  <li>Teaching Faculty at IFPR - 02/2016 - Currently</li>
+  <li>Software Developer at GoTo - 12/2021 - Currently</li>
+  <li>Teaching Faculty at IFPR - 02/2016 - 12/2021</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
   <li>Software Developer at Objective Solutions – 05/2012 – 01/2013</li>
@@ -53,12 +54,12 @@ Links below contain information about my publications:
 <ul class="publications">
 	<li><a href="https://scholar.google.com.br/citations?user=8Kkur44AAAAJ&hl=pt-BR&oi=sra">Google Scholar</a></li>
 	<li><a href="http://dblp.uni-trier.de/pers/hd/o/Oizumi:Willian_Nalepa">DBLP</a></li>
-	<li><a href="https://academic.microsoft.com/#/profile/willianoizumi">Microsoft Academic</a></li>
 </ul>
 
 ## Academic Service in Events
 
 <ul class="service">
+	<li><a href="http://www.ieee-scam.org/2022/#pc">Technical Program Committee Member - SCAM 2022</a></li>
 	<li><a href="https://conf.researchr.org/track/msr-2022/msr-2022-mining-challenge#Call-for-Mining-Challenge-Papers">Committee Member - MSR Mining Challenge Track 2022</a></li>
 	<li><a href="http://cbsoft2021.joinville.udesc.br/wtdsoft.php">Technical Program Committee Member - WTDSOFT 2021</a></li>
 	<li><a href="http://sbqs.sbc.org.br/2021/index.php/en-us/chamada-de-trabalho-2/trabalhos-tecnicos-e-relatos-de-experiencia">Technical Program Committee Member - SBQS 2021</a></li>
