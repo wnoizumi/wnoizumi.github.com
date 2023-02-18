@@ -55,6 +55,8 @@ Links below contain information about my publications:
 ## Academic Service in Events
 
 <ul class="service">
+  <li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">Technical Program Comittee Member - ESEM 2023</a></li>
+	<li><a href="https://2023.issta.org/track/issta-2023-artifact-evaluation#About">Artifact Evaluation Committee (AEC) Member - ISSTA 2023</a></li>
 	<li><a href="https://conf.researchr.org/track/msr-2023/msr-2023-technical-papers">Technical Program Committee Member - MSR 2023</a></li>
 	<li><a href="http://www.ieee-scam.org/2022/#pc">Technical Program Committee Member - SCAM 2022</a></li>
 	<li><a href="https://conf.researchr.org/track/msr-2022/msr-2022-mining-challenge#Call-for-Mining-Challenge-Papers">Committee Member - MSR Mining Challenge Track 2022</a></li>
@@ -74,7 +76,7 @@ Links below contain information about my publications:
 ## Journal Reviews
 
 <ul class="reviews">
-	<li>Software: Practice and Experience (2021-2022)</li>
+	<li>Software: Practice and Experience (2021-2023)</li>
 	<li>Software Quality Journal (2022)</li>
 	<li>IET Software (2019-2020)</li>
 	<li>Revista Mundi ETG (2017-2018)</li>
