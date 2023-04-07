@@ -20,7 +20,8 @@ During my MSc and Ph.D. I had the opportunity to publish papers in prestigious c
 ## Experience
 
 <ul class="experience">
-  <li>Software Developer at GoTo - 12/2021 - Currently</li>
+  <li>Senior Software Developer at GoTo - 04/2023 - Currently</li>
+  <li>Software Developer at GoTo - 12/2021 - 03/2023</li>
   <li>Teaching Faculty at IFPR - 02/2016 - 12/2021</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
@@ -55,7 +56,8 @@ Links below contain information about my publications:
 ## Academic Service in Events
 
 <ul class="service">
-  <li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">Technical Program Comittee Member - ESEM 2023</a></li>
+	<li><a href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
+	<li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">Technical Program Comittee Member - ESEM 2023</a></li>
 	<li><a href="https://2023.issta.org/track/issta-2023-artifact-evaluation#About">Artifact Evaluation Committee (AEC) Member - ISSTA 2023</a></li>
 	<li><a href="https://conf.researchr.org/track/msr-2023/msr-2023-technical-papers">Technical Program Committee Member - MSR 2023</a></li>
 	<li><a href="http://www.ieee-scam.org/2022/#pc">Technical Program Committee Member - SCAM 2022</a></li>
@@ -76,6 +78,7 @@ Links below contain information about my publications:
 ## Journal Reviews
 
 <ul class="reviews">
+	<li>Egyptian Informatics Journal (2023)</li>
 	<li>Software: Practice and Experience (2021-2023)</li>
 	<li>Software Quality Journal (2022)</li>
 	<li>IET Software (2019-2020)</li>
