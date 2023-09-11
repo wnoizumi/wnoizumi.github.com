@@ -58,7 +58,7 @@ Links below contain information about my publications:
 <ul class="service">
  <li>Program Committee Member - SANER Tools Track 2024</li>
  <li>Artifact Evaluation Committee (AEC) Member - ICSE 2024</li>
-	<li> href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
+	<li><a href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
 	<li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">Technical Program Comittee Member - ESEM 2023</a></li>
 	<li><a href="https://2023.issta.org/track/issta-2023-artifact-evaluation#About">Artifact Evaluation Committee (AEC) Member - ISSTA 2023</a></li>
 	<li><a href="https://conf.researchr.org/track/msr-2023/msr-2023-technical-papers">Technical Program Committee Member - MSR 2023</a></li>
