@@ -6,7 +6,7 @@ tagline:
 
 ## About Me
 
-I am currently working as a software developer at GoTo. I have a PhD degree in Computer Science from the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) and a bachelor degree in Computer Science from the State University of Maringá (UEM). I have over 12 years of software development experience, 6 of which were dedicated to teaching at IFPR. I worked on research, development and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I also worked as a developer at HSBC GLT, Objective Solutions and Cwork Sistemas. Most of my software development experience is with Java back-end development, using technologies like Java EE, JUnit and Oracle DB. I also have experience with full stack development (Spring Boot and Thymeleaf). Finally, I'm currently studying and developing front-end and mobile projects with React and Flutter. As an academic, I conduct research in the field of Software Engineering, focusing on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-Based Software Engineering. In my PhD, I am working on a technique to assist developers in identifying and removing design problems that occur when quality attributes are negatively impacted.
+I am currently working as a software engineer at GoTo. I have a PhD degree in Computer Science from the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) and a bachelor degree in Computer Science from the State University of Maringá (UEM). I have over 12 years of software development experience, 6 of which were dedicated to teaching at IFPR. I worked on research, development and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I also worked as a developer at HSBC GLT, Objective Solutions and Cwork Sistemas. Most of my software development experience is with Java back-end development, using technologies like Java EE, JUnit and Oracle DB. I also have experience with full stack development (Spring Boot and Thymeleaf). Finally, I'm currently studying and developing front-end and mobile projects with React and Flutter. As an academic, I conduct research in the field of Software Engineering, focusing on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-Based Software Engineering. In my PhD, I am working on a technique to assist developers in identifying and removing design problems that occur when quality attributes are negatively impacted.
 During my MSc and Ph.D. I had the opportunity to publish papers in prestigious conferences and journals, such as ICSE (2016, 2018), MSR (2020, 2021), IST (2020), SCICO (2019), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). In 2016, my MSc research was awarded as the third best computer science dissertation of the Brazilian Contest of Theses and Dissertations.
 
 ## Education
@@ -20,7 +20,7 @@ During my MSc and Ph.D. I had the opportunity to publish papers in prestigious c
 ## Experience
 
 <ul class="experience">
-  <li>Senior Software Developer at GoTo - 04/2023 - Currently</li>
+  <li>Senior Software Engineer at GoTo - 04/2023 - Currently</li>
   <li>Software Developer at GoTo - 12/2021 - 03/2023</li>
   <li>Teaching Faculty at IFPR - 02/2016 - 12/2021</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
@@ -56,7 +56,9 @@ Links below contain information about my publications:
 ## Academic Service in Events
 
 <ul class="service">
-	<li><a href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
+ <li>Program Committee Member - SANER Tools Track 2024</li>
+ <li>Artifact Evaluation Committee (AEC) Member - ICSE 2024</li>
+	<li> href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
 	<li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">Technical Program Comittee Member - ESEM 2023</a></li>
 	<li><a href="https://2023.issta.org/track/issta-2023-artifact-evaluation#About">Artifact Evaluation Committee (AEC) Member - ISSTA 2023</a></li>
 	<li><a href="https://conf.researchr.org/track/msr-2023/msr-2023-technical-papers">Technical Program Committee Member - MSR 2023</a></li>
