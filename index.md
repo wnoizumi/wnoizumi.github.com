@@ -56,8 +56,9 @@ Links below contain information about my publications:
 ## Academic Service in Events
 
 <ul class="service">
- <li>Program Committee Member - SANER Tools Track 2024</li>
- <li>Artifact Evaluation Committee (AEC) Member - ICSE 2024</li>
+	<li><a href="https://conf.researchr.org/track/saner-2024/saner-2024-tool-demo-track-">Program Committee Member - SANER Tools Demo Track 2024</a></li>
+	<li><a href="https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation">Artifact Evaluation Committee (AEC) Member - ICSE 2024</a></li>
+	<li><a href="https://eres-sbc-br.github.io/eres2023/chamada/">Program Comittee Member - ERES Fórum de Pós-Graduação 2023</a></li>
 	<li><a href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
 	<li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">Technical Program Comittee Member - ESEM 2023</a></li>
 	<li><a href="https://2023.issta.org/track/issta-2023-artifact-evaluation#About">Artifact Evaluation Committee (AEC) Member - ISSTA 2023</a></li>
