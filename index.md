@@ -91,9 +91,10 @@ Links below contain information about my publications:
 ## Talks
 
 <ul class="talks">
-  <li>(In portuguese only) Engenharia de Software na Prática - Palestra SETIF 2022 [<a href="https://docs.google.com/presentation/d/1_xxC3acNbVmnomFPa-U4slclubfQkV5sPsQSe3b375A/edit?usp=sharing">Presentation</a>]</li>
+  <li>AI for Software Engineering Research - Pitfalls and Challenges - ISE@CBSoft 2023 - Keynote [<a href="http://wnoizumi.github.io/talks/talk_ise_cbsoft2023.pdf">Presentation</a>]</li>
+  <li>Engenharia de Software na Prática - Palestra SETIF 2022 [<a href="https://docs.google.com/presentation/d/1_xxC3acNbVmnomFPa-U4slclubfQkV5sPsQSe3b375A/edit?usp=sharing">Presentation</a>] (In portuguese only)</li>
   <li>Qualitative Analysis - Exploring Data to Create Theories [<a href="http://wnoizumi.github.io/talks/qualitative-analysis.pdf">Presentation</a>]</li>
-  <li>(In portuguese only) Qualidade de Softawre: Por que devo me importar? - Sistemática 2018 - UEG Campus Posse [<a href="https://drive.google.com/open?id=1bNXGoO7DRoz1DW1OWhLvbCE7E_AJxm4l">Materiais</a>]</li>
+  <li>Qualidade de Softawre: Por que devo me importar? - Sistemática 2018 - UEG Campus Posse [<a href="https://drive.google.com/open?id=1bNXGoO7DRoz1DW1OWhLvbCE7E_AJxm4l">Materiais</a>] (In portuguese only)</li>
 </ul>
 
 ## Research Topics
