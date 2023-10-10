@@ -82,6 +82,7 @@ Links below contain information about my publications:
 ## Journal Reviews
 
 <ul class="reviews">
+	<li>Computer Standards & Interfaces (2023)</li>
 	<li>Egyptian Informatics Journal (2023)</li>
 	<li>Software: Practice and Experience (2021-2023)</li>
 	<li>Software Quality Journal (2022)</li>
