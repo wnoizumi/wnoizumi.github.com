@@ -6,8 +6,15 @@ tagline:
 
 ## About Me
 
-I am currently working as a software engineer at GoTo. I have a PhD degree in Computer Science from the Pontifical Catholic University of Rio de Janeiro (PUC-Rio) and a bachelor degree in Computer Science from the State University of Maringá (UEM). I have over 12 years of software development experience, 6 of which were dedicated to teaching at IFPR. I worked on research, development and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I also worked as a developer at HSBC GLT, Objective Solutions and Cwork Sistemas. Most of my software development experience is with Java back-end development, using technologies like Java EE, JUnit and Oracle DB. I also have experience with full stack development (Spring Boot and Thymeleaf). Finally, I'm currently studying and developing front-end and mobile projects with React and Flutter. As an academic, I conduct research in the field of Software Engineering, focusing on the following topics: Software Architecture and Design, Code Smells, Refactoring, Empirical Software Engineering and Search-Based Software Engineering. In my PhD, I am working on a technique to assist developers in identifying and removing design problems that occur when quality attributes are negatively impacted.
-During my MSc and Ph.D. I had the opportunity to publish papers in prestigious conferences and journals, such as ICSE (2016, 2018), MSR (2020, 2021), IST (2020), SCICO (2019), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). In 2016, my MSc research was awarded as the third best computer science dissertation of the Brazilian Contest of Theses and Dissertations.
+I am a seasoned Senior Software Engineer at GoTo, with a rich academic background including a PhD, MSc, and BS in Informatics. My career spans over 13 years in software development, with a significant portion (6 years) dedicated to teaching at IFPR.
+
+My experience is not limited to academia and teaching. I have been actively involved in research, development, and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I have also honed my skills as a developer at HSBC GLT, Objective Solutions, and Cwork Sistemas.
+
+My expertise lies in Java backend development, where I have extensively used technologies such as Java EE, SpringBoot, Hibernate, JUnit, Kafka, Postgres, and Kubernetes. 
+
+As an academic, my research interests in Software Engineering are diverse, ranging from Software Architecture and Design, Code Smells, Refactoring, to Empirical Software Engineering and Search-Based Software Engineering. During my PhD, I developed a technique to aid developers in identifying and refactoring design problems that negatively impact quality attributes.
+
+I have had the privilege of publishing my work in esteemed conferences and journals, including ICSE (2016, 2018), MSR (2020, 2021, 2023), IST (2020), SCICO (2019), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). A testament to my research prowess, my MSc research was recognized as the third-best computer science dissertation in the Brazilian Contest of Theses and Dissertations in 2016.
 
 ## Education
 
@@ -22,7 +29,8 @@ During my MSc and Ph.D. I had the opportunity to publish papers in prestigious c
 <ul class="experience">
   <li>Senior Software Engineer at GoTo - 04/2023 - Currently</li>
   <li>Software Developer at GoTo - 12/2021 - 03/2023</li>
-  <li>Teaching Faculty at IFPR - 02/2016 - 12/2021</li>
+  <li>Teaching Professor at Senac-PR - 10/2022 - Currently</li>
+  <li>Teaching Professor at IFPR - 02/2016 - 12/2021</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
   <li>Software Developer at Objective Solutions – 05/2012 – 01/2013</li>
@@ -53,7 +61,7 @@ Links below contain information about my publications:
 	<li><a href="http://dblp.uni-trier.de/pers/hd/o/Oizumi:Willian_Nalepa">DBLP</a></li>
 </ul>
 
-## Academic Service in Events
+## Program Commitee
 
 <ul class="service">
 <li><a href="https://conf.researchr.org/committee/icse-2024/icse-2024-software-engineering-in-practice-software-engineering-in-practice">Program Committee Member - ICSE SEIP 2024</a></li>
@@ -79,7 +87,7 @@ Links below contain information about my publications:
 	<li><a href="http://cbsoft.org/cbsoft2016/anais">Proceedings Co-Chair - CBSoft 2016</a></li>
 </ul>
 
-## Journal Reviews
+## Journal Reviewer
 
 <ul class="reviews">
 	<li>Computer Standards & Interfaces (2023)</li>
@@ -90,7 +98,7 @@ Links below contain information about my publications:
 	<li>Revista Mundi ETG (2017-2018)</li>
 </ul>
 
-## Talks
+## Keynotes and Talks
 
 <ul class="talks">
   <li>AI for Software Engineering Research - Pitfalls and Challenges - ISE@CBSoft 2023 - Keynote [<a href="http://wnoizumi.github.io/talks/talk_ise_cbsoft2023.pdf">Presentation</a>]</li>
