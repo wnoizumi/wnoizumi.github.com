@@ -6,15 +6,15 @@ tagline:
 
 ## About Me
 
-I am a seasoned Senior Software Engineer at GoTo, with a rich academic background including a PhD, MSc, and BS in Informatics. My career spans over 13 years in software development, with a significant portion (6 years) dedicated to teaching at IFPR.
+I am a seasoned Software Engineer, with a rich academic background including a PhD, MSc, and BS in Informatics. My career spans over 13 years in software development, with a significant portion dedicated to teaching.
 
-My experience is not limited to academia and teaching. I have been actively involved in research, development, and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I have also honed my skills as a developer at HSBC GLT, Objective Solutions, and Cwork Sistemas.
+My experience is not limited to academia and teaching. I have been actively involved in research, development, and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I have also honed my skills as a developer at GoTo, HSBC GLT, Objective Solutions, and Cwork Sistemas.
 
-My expertise lies in Java backend development, where I have extensively used technologies such as Java EE, SpringBoot, Hibernate, JUnit, Kafka, Postgres, and Kubernetes. 
+My expertise lies in Java backend development, where I have extensively used technologies such as Kafka, Postgres, and Kubernetes.
 
 As an academic, my research interests in Software Engineering are diverse, ranging from Software Architecture and Design, Code Smells, Refactoring, to Empirical Software Engineering and Search-Based Software Engineering. During my PhD, I developed a technique to aid developers in identifying and refactoring design problems that negatively impact quality attributes.
 
-I have had the privilege of publishing my work in esteemed conferences and journals, including ICSE (2016, 2018), MSR (2020, 2021, 2023), IST (2020), SCICO (2019), ICSME (2020), SPLC (2014), ESEM (2019), ISSRE (2019), and ICPC (2019, 2020). A testament to my research prowess, my MSc research was recognized as the third-best computer science dissertation in the Brazilian Contest of Theses and Dissertations in 2016.
+I have had the privilege of publishing my work in esteemed conferences and journals, including ICSE (2016, 2018) and MSR (2020, 2021, 2023). A testament to my research prowess, my MSc research was recognized as the third-best computer science dissertation in the Brazilian Contest of Theses and Dissertations in 2016.
 
 ## Education
 
@@ -27,7 +27,8 @@ I have had the privilege of publishing my work in esteemed conferences and journ
 ## Experience
 
 <ul class="experience">
-  <li>Senior Software Engineer at GoTo - 04/2023 - Currently</li>
+  <li>Software Engineer at Google - 05/2024 - Currently</li>
+  <li>Senior Software Engineer at GoTo - 04/2023 - 06/2024</li>
   <li>Software Developer at GoTo - 12/2021 - 03/2023</li>
   <li>Teaching Professor at Senac-PR - 10/2022 - Currently</li>
   <li>Teaching Professor at IFPR - 02/2016 - 12/2021</li>
@@ -64,8 +65,10 @@ Links below contain information about my publications:
 ## Program Commitee
 
 <ul class="service">
-<li><a href="https://conf.researchr.org/committee/icse-2024/icse-2024-software-engineering-in-practice-software-engineering-in-practice">Program Committee Member - ICSE SEIP 2024</a></li>
-<li><a href="https://conf.researchr.org/track/saner-2024/saner-2024-tool-demo-track-">Program Committee Member - SANER Tools Demo Track 2024</a></li>
+	<li>Program Comittee Member - SBES Tools 2024</li>
+	<li>Program Comittee Member - SBES IIER 2024</li>
+	<li><a href="https://conf.researchr.org/committee/icse-2024/icse-2024-software-engineering-in-practice-software-engineering-in-practice">Program Committee Member - ICSE SEIP 2024</a></li>
+	<li><a href="https://conf.researchr.org/track/saner-2024/saner-2024-tool-demo-track-">Program Committee Member - SANER Tools Demo Track 2024</a></li>
 	<li><a href="https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation">Artifact Evaluation Committee (AEC) Member - ICSE 2024</a></li>
 	<li><a href="https://eres-sbc-br.github.io/eres2023/chamada/">Program Comittee Member - ERES Fórum de Pós-Graduação 2023</a></li>
 	<li><a href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
