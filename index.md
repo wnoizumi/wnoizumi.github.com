@@ -30,7 +30,7 @@ I have had the privilege of publishing my work in esteemed conferences and journ
   <li>Software Engineer at Google - 05/2024 - Currently</li>
   <li>Senior Software Engineer at GoTo - 04/2023 - 06/2024</li>
   <li>Software Developer at GoTo - 12/2021 - 03/2023</li>
-  <li>Teaching Professor at Senac-PR - 10/2022 - Currently</li>
+  <li>Teaching Professor at Senac-PR - 10/2022 - 06/2024</li>
   <li>Teaching Professor at IFPR - 02/2016 - 12/2021</li>
   <li>Software Developer at HSBC Global Technology – 03/2015 - 12/2015</li>
   <li>Researcher at Software Engineering Laboratory – 02/2013 – 01/2015</li>
