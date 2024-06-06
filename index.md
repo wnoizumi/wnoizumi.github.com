@@ -10,7 +10,7 @@ I am a seasoned Software Engineer, with a rich academic background including a P
 
 My experience is not limited to academia and teaching. I have been actively involved in research, development, and consulting projects at the Software Engineering Laboratory at PUC-RIO (LES). I have also honed my skills as a developer at GoTo, HSBC GLT, Objective Solutions, and Cwork Sistemas.
 
-My expertise lies in Java backend development, where I have extensively used technologies such as Kafka, Postgres, and Kubernetes.
+My expertise lies in backend development, where I have extensively used technologies such as Kafka, Postgres, and Kubernetes.
 
 As an academic, my research interests in Software Engineering are diverse, ranging from Software Architecture and Design, Code Smells, Refactoring, to Empirical Software Engineering and Search-Based Software Engineering. During my PhD, I developed a technique to aid developers in identifying and refactoring design problems that negatively impact quality attributes.
 
