@@ -65,8 +65,15 @@ Links below contain information about my publications:
 ## Program Commitee
 
 <ul class="service">
+	<li>Program Comittee Member - MSR 2026</li>
+	<li>Program Comittee Member - SBCARS 2025</li>
+	<li>Program Comittee Member - SBES Tools 2025</li>
+	<li>Program Comittee Member - SBES IIER 2025</li>
+	<li>Program Comittee Member - CBSoft ISE 2025</li>
+	<li>Program Comittee Member - CBSoft VEM 2025</li>
 	<li>Program Comittee Member - SBES Tools 2024</li>
 	<li>Program Comittee Member - SBES IIER 2024</li>
+	<li>Program Comittee Member - ERES Fórum de Pós-Graduação 2024</li>
 	<li><a href="https://conf.researchr.org/committee/icse-2024/icse-2024-software-engineering-in-practice-software-engineering-in-practice">Program Committee Member - ICSE SEIP 2024</a></li>
 	<li><a href="https://conf.researchr.org/track/saner-2024/saner-2024-tool-demo-track-">Program Committee Member - SANER Tools Demo Track 2024</a></li>
 	<li><a href="https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation">Artifact Evaluation Committee (AEC) Member - ICSE 2024</a></li>
