@@ -65,34 +65,34 @@ Links below contain information about my publications:
 ## Program Commitee
 
 <ul class="service">
-	<li>Program Comittee Member - MSR 2026</li>
-	<li>Program Comittee Member - SBCARS 2025</li>
-	<li>Program Comittee Member - SBES Tools 2025</li>
-	<li>Program Comittee Member - SBES IIER 2025</li>
-	<li>Program Comittee Member - CBSoft ISE 2025</li>
-	<li>Program Comittee Member - CBSoft VEM 2025</li>
-	<li>Program Comittee Member - SBES Tools 2024</li>
-	<li>Program Comittee Member - SBES IIER 2024</li>
-	<li>Program Comittee Member - ERES Fórum de Pós-Graduação 2024</li>
-	<li><a href="https://conf.researchr.org/committee/icse-2024/icse-2024-software-engineering-in-practice-software-engineering-in-practice">Program Committee Member - ICSE SEIP 2024</a></li>
-	<li><a href="https://conf.researchr.org/track/saner-2024/saner-2024-tool-demo-track-">Program Committee Member - SANER Tools Demo Track 2024</a></li>
+	<li>PC Member - MSR 2026</li>
+	<li>PC Member - SBCARS 2025</li>
+	<li>PC Member - SBES Tools 2025</li>
+	<li>PC Member - SBES IIER 2025</li>
+	<li>PC Member - CBSoft ISE 2025</li>
+	<li>PC Member - CBSoft VEM 2025</li>
+	<li>PC Member - SBES Tools 2024</li>
+	<li>PC Member - SBES IIER 2024</li>
+	<li>PC Member - ERES Fórum de Pós-Graduação 2024</li>
+	<li><a href="https://conf.researchr.org/committee/icse-2024/icse-2024-software-engineering-in-practice-software-engineering-in-practice">PC Member - ICSE SEIP 2024</a></li>
+	<li><a href="https://conf.researchr.org/track/saner-2024/saner-2024-tool-demo-track-">PC Member - SANER Tools Demo Track 2024</a></li>
 	<li><a href="https://conf.researchr.org/track/icse-2024/icse-2024-artifact-evaluation">Artifact Evaluation Committee (AEC) Member - ICSE 2024</a></li>
-	<li><a href="https://eres-sbc-br.github.io/eres2023/chamada/">Program Comittee Member - ERES Fórum de Pós-Graduação 2023</a></li>
-	<li><a href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">Program Comittee Member - SBES IIER 2023</a></li>
-	<li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">Technical Program Comittee Member - ESEM 2023</a></li>
+	<li><a href="https://eres-sbc-br.github.io/eres2023/chamada/">PC Member - ERES Fórum de Pós-Graduação 2023</a></li>
+	<li><a href="https://cbsoft2023.ufms.br/en-US/sbes/ideias">PC Member - SBES IIER 2023</a></li>
+	<li><a href="https://conf.researchr.org/track/esem-2023/esem-2023-technical-track">PC Member - ESEM 2023</a></li>
 	<li><a href="https://2023.issta.org/track/issta-2023-artifact-evaluation#About">Artifact Evaluation Committee (AEC) Member - ISSTA 2023</a></li>
-	<li><a href="https://conf.researchr.org/track/msr-2023/msr-2023-technical-papers">Technical Program Committee Member - MSR 2023</a></li>
-	<li><a href="http://www.ieee-scam.org/2022/#pc">Technical Program Committee Member - SCAM 2022</a></li>
-	<li><a href="https://conf.researchr.org/track/msr-2022/msr-2022-mining-challenge#Call-for-Mining-Challenge-Papers">Committee Member - MSR Mining Challenge Track 2022</a></li>
-	<li><a href="http://cbsoft2021.joinville.udesc.br/wtdsoft.php">Technical Program Committee Member - WTDSOFT 2021</a></li>
-	<li><a href="http://sbqs.sbc.org.br/2021/index.php/en-us/chamada-de-trabalho-2/trabalhos-tecnicos-e-relatos-de-experiencia">Technical Program Committee Member - SBQS 2021</a></li>
-	<li><a href="http://www.ieee-scam.org/2021/#home">Technical Program Committee Member - SCAM 2021</a></li>
+	<li><a href="https://conf.researchr.org/track/msr-2023/msr-2023-technical-papers">PC Member - MSR 2023</a></li>
+	<li><a href="http://www.ieee-scam.org/2022/#pc">PC Member - SCAM 2022</a></li>
+	<li><a href="https://conf.researchr.org/track/msr-2022/msr-2022-mining-challenge#Call-for-Mining-Challenge-Papers">PC Member - MSR Mining Challenge Track 2022</a></li>
+	<li><a href="http://cbsoft2021.joinville.udesc.br/wtdsoft.php">PC Member - WTDSOFT 2021</a></li>
+	<li><a href="http://sbqs.sbc.org.br/2021/index.php/en-us/chamada-de-trabalho-2/trabalhos-tecnicos-e-relatos-de-experiencia">PC Member - SBQS 2021</a></li>
+	<li><a href="http://www.ieee-scam.org/2021/#home">PC Member - SCAM 2021</a></li>
 	<li><a href="https://conf.researchr.org/track/issta-2021/issta-2021-artifact-evaluation#Call-for-Artifacts">Artifact Evaluation Committee (AEC) Member - ISSTA 2021</a></li>
 	<li><a href="https://2021.msrconf.org/track/msr-2021-shadow-pc">Shadow PC Member - MSR 2021</a></li>
-	<li><a href="http://sbqs.sbc.org.br/index.php/pt/chamada-de-trabalho/trabalhos-tecnicos">Technical Program Committee Member - SBQS 2020 - Research Track</a></li>
-	<li><a href="http://cbsoft2020.imd.ufrn.br/wtdsoft.php">Technical Program Committee Member - WTDSOFT 2020</a></li>
-	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">Technical Program Committee Member - WTDSOFT 2019</a></li>
-	<li><a href="http://48jaiio.sadio.org.ar/">Program Committee Member - Argentine Symposium on Software Engineering (ASSE) 2019</a></li>	
+	<li><a href="http://sbqs.sbc.org.br/index.php/pt/chamada-de-trabalho/trabalhos-tecnicos">PC Member - SBQS 2020 - Research Track</a></li>
+	<li><a href="http://cbsoft2020.imd.ufrn.br/wtdsoft.php">PC Member - WTDSOFT 2020</a></li>
+	<li><a href="http://cbsoft2019.ufba.br/#/wtdsoft">PC Member - WTDSOFT 2019</a></li>
+	<li><a href="http://48jaiio.sadio.org.ar/">PC Member - Argentine Symposium on Software Engineering (ASSE) 2019</a></li>	
 	<li><a href="http://vissoft16.ysu.edu/committee.html">Artifact Evaluation Committee Member - VISSOFT 2016</a></li>
 	<li><a href="http://cbsoft.org/cbsoft2016/anais">Proceedings Co-Chair - CBSoft 2016</a></li>
 </ul>
